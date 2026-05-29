@@ -30,28 +30,12 @@ export default defineConfig({
       { text: "GitHub", link: "https://github.com/nice2209/llm-compass" },
     ],
 
-    sidebar: {
-      "/pricing/": [
-        {
-          text: "가격",
-          items: [{ text: "가격 비교표", link: "/pricing/" }],
-        },
-      ],
-      "/plans/": [
-        {
-          text: "추천",
-          items: [{ text: "용도별 추천", link: "/plans/" }],
-        },
-      ],
-      "/guard/": [
-        {
-          text: "llm-guard",
-          items: [{ text: "사용법", link: "/guard/" }],
-        },
-      ],
-    },
+    // 사이드바 없음: 페이지가 4개뿐이라 상단 nav + 페이지 내부 목차(outline)로 충분.
+    // 사이드바 토글로 인한 본문 영역 비율 흔들림을 근본적으로 제거.
 
-    socialLinks: [{ icon: "github", link: "https://github.com/nice2209/llm-compass" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/nice2209/llm-compass" },
+    ],
 
     footer: {
       message: "Apache 2.0 라이선스로 배포됩니다.",
