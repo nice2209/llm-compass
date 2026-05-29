@@ -27,7 +27,7 @@ export default defineConfig({
       { text: "가격 비교", link: "/pricing/" },
       { text: "용도별 추천", link: "/plans/" },
       { text: "llm-guard", link: "/guard/" },
-      { text: "GitHub", link: "https://github.com/" },
+      { text: "GitHub", link: "https://github.com/nice2209/llm-compass" },
     ],
 
     sidebar: {
@@ -51,7 +51,7 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [{ icon: "github", link: "https://github.com/" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/nice2209/llm-compass" }],
 
     footer: {
       message: "Apache 2.0 라이선스로 배포됩니다.",
