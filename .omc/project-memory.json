@@ -46,27 +46,27 @@
   "directoryMap": {},
   "hotPaths": [
     {
+      "path": "docs/.vitepress/theme/PriceTable.vue",
+      "accessCount": 13,
+      "lastAccessed": 1780063030886,
+      "type": "file"
+    },
+    {
       "path": "scripts/providers/base.py",
       "accessCount": 9,
       "lastAccessed": 1780059359450,
       "type": "file"
     },
     {
-      "path": "docs/.vitepress/theme/PriceTable.vue",
-      "accessCount": 6,
-      "lastAccessed": 1780061567854,
+      "path": "docs/.vitepress/theme/index.ts",
+      "accessCount": 5,
+      "lastAccessed": 1780062901236,
       "type": "file"
     },
     {
       "path": "docs/.vitepress/config.ts",
       "accessCount": 4,
       "lastAccessed": 1780061499401,
-      "type": "file"
-    },
-    {
-      "path": "docs/.vitepress/theme/index.ts",
-      "accessCount": 4,
-      "lastAccessed": 1780061551069,
       "type": "file"
     },
     {
@@ -124,6 +124,18 @@
       "type": "file"
     },
     {
+      "path": "docs/pricing/index.md",
+      "accessCount": 3,
+      "lastAccessed": 1780062900995,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/theme/custom.css",
+      "accessCount": 3,
+      "lastAccessed": 1780063044986,
+      "type": "file"
+    },
+    {
       "path": "ARCHITECTURE.md",
       "accessCount": 2,
       "lastAccessed": 1780057865588,
@@ -139,12 +151,6 @@
       "path": "pyproject.toml",
       "accessCount": 2,
       "lastAccessed": 1780057883771,
-      "type": "file"
-    },
-    {
-      "path": "docs/pricing/index.md",
-      "accessCount": 2,
-      "lastAccessed": 1780061503003,
       "type": "file"
     },
     {
@@ -283,12 +289,6 @@
       "path": "docs/guard/index.md",
       "accessCount": 1,
       "lastAccessed": 1780058002257,
-      "type": "file"
-    },
-    {
-      "path": "docs/.vitepress/theme/custom.css",
-      "accessCount": 1,
-      "lastAccessed": 1780061547295,
       "type": "file"
     }
   ],

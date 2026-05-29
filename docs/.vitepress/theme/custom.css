@@ -1,6 +1,7 @@
 /* ── 스크롤바로 인한 레이아웃 쉬프트 방지 ─────────────────
    콘텐츠 높이에 따라 세로 스크롤바가 생겼다 사라지면 본문 폭이
-   15~17px씩 흔들린다. 스크롤바 공간을 항상 확보해 폭을 고정한다. */
+   15~17px씩 흔들린다. 스크롤바 공간을 항상 확보해 폭을 고정한다.
+   PriceTable의 full-bleed(--pt-sbw)도 이 값을 실측해 보정한다. */
 html {
   scrollbar-gutter: stable;
 }
@@ -12,21 +13,6 @@ html {
   }
 }
 
-/* ── 가격 비교 페이지: 모든 콘텐츠 폭 제한 해제 ──────────
-   VitePress가 3중으로 max-width를 제한한다:
-   1. .VPDoc:not(.has-sidebar) .container       → ~1104px
-   2. .VPDoc:not(.has-sidebar) .content          → ~784px
-   3. .VPDoc.has-aside .content-container        → 688px
-   PriceTable(.pt)이 있는 페이지에서 전부 해제해야
-   테이블이 실제 화면 폭을 다 사용할 수 있다. */
-@media (min-width: 1024px) {
-  .VPDoc:has(.pt) .container,
-  .VPDoc:has(.pt) .content,
-  .VPDoc.has-aside:has(.pt) .content-container {
-    max-width: none !important;
-  }
-  .VPDoc:has(.pt) {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
+/* 참고: 가격표 full-bleed는 PriceTable.vue(.pt)의 네거티브 마진으로
+   처리한다. VitePress 컨테이너 max-width는 더 이상 건드리지 않으므로
+   본문 산문은 기본 가독 폭을 유지한다. */

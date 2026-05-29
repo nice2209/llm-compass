@@ -1,7 +1,19 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 // 빌드 타임에 번들 — 런타임 API 호출 없음
 import pricesData from '../../../data/prices.json'
+
+// full-bleed 보정: scrollbar-gutter:stable이 예약한 스크롤바 폭만큼
+// 100vw가 실제 가용 폭보다 넓어 가로 스크롤이 생긴다. 실측해 빼준다.
+const scrollbarWidth = ref(0)
+function measureScrollbar() {
+  scrollbarWidth.value = window.innerWidth - document.documentElement.clientWidth
+}
+onMounted(() => {
+  measureScrollbar()
+  window.addEventListener('resize', measureScrollbar)
+})
+onUnmounted(() => window.removeEventListener('resize', measureScrollbar))
 
 interface PriceEntry {
   provider: string
@@ -233,7 +245,7 @@ function resetFilters() {
 </script>
 
 <template>
-  <div class="pt">
+  <div class="pt" :style="{ '--pt-sbw': scrollbarWidth + 'px' }">
     <!-- 컨트롤 바 -->
     <div class="pt-controls">
       <div class="pt-search-wrap">
@@ -457,9 +469,18 @@ function resetFilters() {
 </template>
 
 <style scoped>
+/* full-bleed: VitePress 본문 컨테이너(중앙 정렬 고정폭) 밖으로 빠져나와
+   뷰포트 가용 폭(=100vw − 스크롤바)을 전부 차지한다. 산문은 그대로 두고
+   이 컴포넌트만 breakout 하므로 VitePress max-width와 싸울 필요가 없다.
+   --pt-sbw 는 onMounted에서 실측한 스크롤바 폭(SSR/초기엔 0). */
 .pt {
-  margin: 1rem 0 2rem;
   --pt-radius: 12px;
+  --pt-sbw: 0px;
+  --pt-bleed: calc(100vw - var(--pt-sbw));
+  width: var(--pt-bleed);
+  margin: 1rem 0 2rem calc(50% - var(--pt-bleed) / 2);
+  padding: 0 clamp(16px, 3vw, 48px);
+  box-sizing: border-box;
 }
 
 /* ── 컨트롤 바 ───────────────────────────── */
@@ -702,35 +723,36 @@ function resetFilters() {
 
 /* ── 데스크톱/태블릿 표 ──────────────────── */
 .pt-table-wrap {
-  /* VitePress 레이아웃 제한 우회: 100vw + 네거티브 마진으로
-     뷰포트 전체 폭을 차지, 부모 max-width 무시 */
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  overflow-x: auto;
+  /* .pt 루트가 이미 full-bleed 이므로 래퍼는 부모를 100%로 채우기만 한다.
+     세로로 길 때(수백 행) 페이지 전체가 아니라 표 내부에서 스크롤 →
+     컨트롤/헤더 접근성 유지. 헤더는 sticky 로 고정. */
+  width: 100%;
+  max-height: calc(100vh - 240px);
+  overflow: auto;
   border: 1px solid var(--vp-c-divider);
   border-radius: var(--pt-radius);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 .pt-table {
   width: 100%;
-  /* auto 레이아웃 + colgroup width 힌트로 컬럼이 내용에 맞게 조절됨 */
-  table-layout: auto;
+  /* 고정 레이아웃 + colgroup 비율로 폭을 강제 분배 (full-bleed 폭을 균등 사용) */
+  table-layout: fixed;
   border-collapse: collapse;
   font-size: 0.88rem;
 }
-/* 컬럼 비율: provider 10 / model 35 / 입력 20 / 출력 20 / 컨텍스트 15 */
+/* 컬럼 비율: provider 8 / model 42 / 입력 18 / 출력 18 / 컨텍스트 14 */
 .col-provider {
-  width: 10%;
+  width: 8%;
 }
 .col-model {
-  width: 35%;
+  width: 42%;
 }
 .col-input,
 .col-output {
-  width: 20%;
+  width: 18%;
 }
 .col-context {
-  width: 15%;
+  width: 14%;
 }
 .pt-table th,
 .pt-table td {
@@ -775,6 +797,9 @@ function resetFilters() {
 }
 .pt-table .ind {
   color: var(--vp-c-brand-1);
+  font-weight: 900;
+  font-size: 0.9rem;
+  margin-left: 0.1rem;
 }
 
 /* 가격대별 배경 음영 (좌측 컬러 바 + 옅은 틴트) */
@@ -902,6 +927,13 @@ function resetFilters() {
 
 /* 모바일 (<640px): 카드 전환 + 필터 접기 */
 @media (max-width: 639px) {
+  /* full-bleed 해제 — 카드 리스트는 본문 흐름 폭 그대로 (가로 넘침 방지) */
+  .pt {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
   .pt-table-wrap {
     display: none;
   }
