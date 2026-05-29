@@ -702,6 +702,10 @@ function resetFilters() {
 
 /* ── 데스크톱/태블릿 표 ──────────────────── */
 .pt-table-wrap {
+  /* VitePress 레이아웃 제한 우회: 100vw + 네거티브 마진으로
+     뷰포트 전체 폭을 차지, 부모 max-width 무시 */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   overflow-x: auto;
   border: 1px solid var(--vp-c-divider);
   border-radius: var(--pt-radius);
@@ -709,10 +713,8 @@ function resetFilters() {
 }
 .pt-table {
   width: 100%;
-  /* 고정 레이아웃 + colgroup 비율로 컬럼 폭을 명시 제어 */
-  table-layout: fixed;
-  /* 데스크톱 전체 폭에서도 컬럼이 과도하게 좁아지지 않도록 하한 */
-  min-width: 760px;
+  /* auto 레이아웃 + colgroup width 힌트로 컬럼이 내용에 맞게 조절됨 */
+  table-layout: auto;
   border-collapse: collapse;
   font-size: 0.88rem;
 }
