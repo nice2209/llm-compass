@@ -326,6 +326,13 @@ function resetFilters() {
     <!-- 데스크톱/태블릿: 표 -->
     <div class="pt-table-wrap">
       <table class="pt-table">
+        <colgroup>
+          <col class="col-provider" />
+          <col class="col-model" />
+          <col class="col-input" />
+          <col class="col-output" />
+          <col class="col-context" />
+        </colgroup>
         <thead>
           <tr>
             <th>제공업체</th>
@@ -702,8 +709,26 @@ function resetFilters() {
 }
 .pt-table {
   width: 100%;
+  /* 고정 레이아웃 + colgroup 비율로 컬럼 폭을 명시 제어 */
+  table-layout: fixed;
+  /* 데스크톱 전체 폭에서도 컬럼이 과도하게 좁아지지 않도록 하한 */
+  min-width: 760px;
   border-collapse: collapse;
   font-size: 0.88rem;
+}
+/* 컬럼 비율: provider 10 / model 35 / 입력 20 / 출력 20 / 컨텍스트 15 */
+.col-provider {
+  width: 10%;
+}
+.col-model {
+  width: 35%;
+}
+.col-input,
+.col-output {
+  width: 20%;
+}
+.col-context {
+  width: 15%;
 }
 .pt-table th,
 .pt-table td {
@@ -711,6 +736,13 @@ function resetFilters() {
   text-align: left;
   border-bottom: 1px solid var(--vp-c-divider);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 모델명은 길 수 있으므로 줄바꿈 허용 (고정 레이아웃에서 잘림 방지) */
+.pt-table td.model {
+  white-space: normal;
+  word-break: break-word;
 }
 .pt-table tbody tr:last-child td {
   border-bottom: none;

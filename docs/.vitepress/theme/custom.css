@@ -1,0 +1,25 @@
+/* ── 스크롤바로 인한 레이아웃 쉬프트 방지 ─────────────────
+   콘텐츠 높이에 따라 세로 스크롤바가 생겼다 사라지면 본문 폭이
+   15~17px씩 흔들린다. 스크롤바 공간을 항상 확보해 폭을 고정한다. */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* scrollbar-gutter 미지원 브라우저 폴백: 스크롤바 항상 표시 */
+@supports not (scrollbar-gutter: stable) {
+  html {
+    overflow-y: scroll;
+  }
+}
+
+/* ── 가격 비교 페이지: 표가 본문 전체 폭을 사용 ───────────
+   VitePress 기본 doc 레이아웃은 본문 컨테이너를 ~688px로 제한한다.
+   PriceTable(.pt)이 포함된 페이지에서만 제한을 풀어 데스크톱에서
+   container 전체 폭을 쓰게 한다. */
+@media (min-width: 1024px) {
+  .VPDoc .container:has(.pt),
+  .VPDoc .content:has(.pt),
+  .VPDoc .content-container:has(.pt) {
+    max-width: none;
+  }
+}
