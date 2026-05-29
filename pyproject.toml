@@ -1,0 +1,23 @@
+[project]
+name = "llm-compass"
+version = "0.1.0"
+description = "LLM API 종합 비교 + 예산 가드 — 가격 크롤러"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "httpx>=0.27",
+    "selectolax>=0.3.21",
+    "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools]
+packages = []

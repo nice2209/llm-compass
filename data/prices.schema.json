@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LLM Compass prices",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "providers"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "integer", "minimum": 1 },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "providers": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/priceEntry" }
+      }
+    }
+  },
+  "definitions": {
+    "priceEntry": {
+      "type": "object",
+      "required": [
+        "provider",
+        "model",
+        "input_per_1m",
+        "output_per_1m",
+        "context_window",
+        "source_url",
+        "fetched_at",
+        "currency"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "provider": { "type": "string", "minLength": 1 },
+        "model": { "type": "string", "minLength": 1 },
+        "input_per_1m": { "type": "number", "minimum": 0 },
+        "output_per_1m": { "type": "number", "minimum": 0 },
+        "context_window": { "type": "integer", "minimum": 0 },
+        "source_url": { "type": "string", "minLength": 1 },
+        "fetched_at": { "type": "string", "minLength": 1 },
+        "currency": { "type": "string", "minLength": 1 },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

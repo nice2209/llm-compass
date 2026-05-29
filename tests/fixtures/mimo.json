@@ -1,0 +1,24 @@
+{
+  "unit": "per_1k_tokens",
+  "currency": "USD",
+  "models": [
+    {
+      "name": "mimo-v2.5",
+      "input_price": 0.0003,
+      "output_price": 0.0012,
+      "context": 65536
+    },
+    {
+      "name": "mimo-v2.5-pro",
+      "input_price": 0.0008,
+      "output_price": 0.0032,
+      "context": 131072
+    },
+    {
+      "name": "mimo-v2-flash",
+      "input_price": 0.00008,
+      "output_price": 0.00032,
+      "context": 65536
+    }
+  ]
+}

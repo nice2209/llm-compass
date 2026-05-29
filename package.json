@@ -1,0 +1,16 @@
+{
+  "name": "llm-compass-docs",
+  "version": "0.1.0",
+  "description": "LLM Compass — LLM API 가격 비교 정적 사이트 (VitePress)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}

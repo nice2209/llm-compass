@@ -1,0 +1,290 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780056641412,
+  "projectRoot": "/Users/nice2209/llm-compass",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "pytest",
+        "version": null,
+        "category": "testing"
+      }
+    ],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "source .venv/bin/activate 2>/dev/null; python -m pytest tests/ -q 2>&1 | tail -5; echo \"===FETCH===\"; python scripts/fetch_prices.py; echo \"exit=$?\"; echo \"===VALIDATE===\"; python scripts/validate.py; echo \"exit=$?\"",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "scripts/providers/base.py",
+      "accessCount": 9,
+      "lastAccessed": 1780059359450,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/openai.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059217798,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/anthropic.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059225899,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/google.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059232554,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/deepseek.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059239062,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/mistral.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059245956,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/groq.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059253554,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/fireworks.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059260453,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/together.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059278457,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/mimo.py",
+      "accessCount": 3,
+      "lastAccessed": 1780059290487,
+      "type": "file"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "accessCount": 2,
+      "lastAccessed": 1780057865588,
+      "type": "file"
+    },
+    {
+      "path": "SPEC.md",
+      "accessCount": 2,
+      "lastAccessed": 1780057866023,
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "accessCount": 2,
+      "lastAccessed": 1780057883771,
+      "type": "file"
+    },
+    {
+      "path": "phase1-prompt.md",
+      "accessCount": 1,
+      "lastAccessed": 1780056658808,
+      "type": "file"
+    },
+    {
+      "path": "scripts/models.py",
+      "accessCount": 1,
+      "lastAccessed": 1780056754713,
+      "type": "file"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1780056770000,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/openai.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056834138,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/anthropic.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056839109,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/google.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056844184,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/deepseek.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056848688,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/mistral.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056853058,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/fireworks.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056858000,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/groq.html",
+      "accessCount": 1,
+      "lastAccessed": 1780056865823,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/openrouter.json",
+      "accessCount": 1,
+      "lastAccessed": 1780056871483,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/together.json",
+      "accessCount": 1,
+      "lastAccessed": 1780056876927,
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/mimo.json",
+      "accessCount": 1,
+      "lastAccessed": 1780056884501,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/openrouter.py",
+      "accessCount": 1,
+      "lastAccessed": 1780056986109,
+      "type": "file"
+    },
+    {
+      "path": "scripts/providers/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1780057008101,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fetch_prices.py",
+      "accessCount": 1,
+      "lastAccessed": 1780057028315,
+      "type": "file"
+    },
+    {
+      "path": "data/prices.schema.json",
+      "accessCount": 1,
+      "lastAccessed": 1780057040472,
+      "type": "file"
+    },
+    {
+      "path": "scripts/validate.py",
+      "accessCount": 1,
+      "lastAccessed": 1780057056749,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_providers.py",
+      "accessCount": 1,
+      "lastAccessed": 1780057093539,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1780057898199,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780057914042,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/theme/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780057917401,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/theme/PriceTable.vue",
+      "accessCount": 1,
+      "lastAccessed": 1780057968447,
+      "type": "file"
+    },
+    {
+      "path": "docs/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1780057981277,
+      "type": "file"
+    },
+    {
+      "path": "docs/pricing/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1780057987978,
+      "type": "file"
+    },
+    {
+      "path": "docs/plans/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1780057993730,
+      "type": "file"
+    },
+    {
+      "path": "docs/guard/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1780058002257,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

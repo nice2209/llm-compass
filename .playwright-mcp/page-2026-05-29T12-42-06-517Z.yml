@@ -1,0 +1,3167 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#VPContent"
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - link "LLM Compass" [ref=e6] [cursor=pointer]:
+            - /url: /llm-compass/
+            - generic [ref=e7]: LLM Compass
+          - generic [ref=e8]:
+            - button "검색" [ref=e11] [cursor=pointer]:
+              - generic [ref=e14]: 검색
+              - generic [ref=e15]:
+                - generic [ref=e16]: ⌘
+                - generic [ref=e17]: K
+            - navigation "Main Navigation" [ref=e18]:
+              - generic [ref=e19]: Main Navigation
+              - link "홈" [ref=e20] [cursor=pointer]:
+                - /url: /llm-compass/
+                - generic [ref=e21]: 홈
+              - link "가격 비교" [ref=e22] [cursor=pointer]:
+                - /url: /llm-compass/pricing/
+                - generic [ref=e23]: 가격 비교
+              - link "용도별 추천" [ref=e24] [cursor=pointer]:
+                - /url: /llm-compass/plans/
+                - generic [ref=e25]: 용도별 추천
+              - link "llm-guard" [ref=e26] [cursor=pointer]:
+                - /url: /llm-compass/guard/
+                - generic [ref=e27]: llm-guard
+              - link "GitHub" [ref=e28] [cursor=pointer]:
+                - /url: https://github.com/
+                - generic [ref=e29]: GitHub
+            - button "extra navigation" [ref=e31] [cursor=pointer]
+  - complementary [ref=e33]:
+    - navigation "Sidebar Navigation" [ref=e35]:
+      - generic [ref=e36]: Sidebar Navigation
+      - generic [ref=e38]:
+        - button "가격" [ref=e39]:
+          - heading "가격" [level=2] [ref=e41]
+        - link "가격 비교표" [ref=e46] [cursor=pointer]:
+          - /url: /llm-compass/pricing/
+          - paragraph [ref=e47]: 가격 비교표
+  - generic [ref=e52]:
+    - main [ref=e53]:
+      - generic [ref=e55]:
+        - heading "LLM API 가격 비교 Permalink to \"LLM API 가격 비교\"" [level=1] [ref=e56]:
+          - text: LLM API 가격 비교
+          - link "Permalink to \"LLM API 가격 비교\"" [ref=e57] [cursor=pointer]:
+            - /url: "#llm-api-가격-비교"
+            - text: "#"
+        - paragraph [ref=e58]:
+          - text: 주요 LLM 제공업체의 API 가격을 한눈에 비교합니다. 가격은
+          - strong [ref=e59]: USD / 1M 토큰
+          - text: 기준으로 정규화되어 있으며, 단위 토글로 1K 토큰 기준으로도 볼 수 있습니다.
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - strong [ref=e62]: 검색
+            - text: ": 모델명 또는 제공업체로 필터"
+          - listitem [ref=e63]:
+            - strong [ref=e64]: 정렬
+            - text: ": 입력 단가 / 출력 단가 / 컨텍스트 윈도우 헤더 클릭"
+          - listitem [ref=e65]:
+            - strong [ref=e66]: 필터
+            - text: ": 제공업체 뱃지를 클릭해 선택 (선택 없으면 전체)"
+          - listitem [ref=e67]:
+            - strong [ref=e68]: CSV 내보내기
+            - text: ": 현재 표시 중인 행을 CSV로 다운로드"
+          - listitem [ref=e69]:
+            - strong [ref=e70]: 최저가 하이라이트
+            - text: ": 입력 단가 최저 모델 강조"
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - searchbox "모델 검색" [ref=e73]
+            - group "가격 단위" [ref=e74]:
+              - button "1M 토큰" [ref=e75] [cursor=pointer]
+              - button "1K 토큰" [ref=e76] [cursor=pointer]
+            - button "CSV 내보내기" [ref=e77] [cursor=pointer]
+            - button "초기화" [ref=e78] [cursor=pointer]
+          - generic [ref=e79]:
+            - generic [ref=e80] [cursor=pointer]: deepseek
+            - generic [ref=e82] [cursor=pointer]: groq
+            - generic [ref=e84] [cursor=pointer]: mistral
+            - generic [ref=e86] [cursor=pointer]: openrouter
+          - generic [ref=e88]: "341개 모델 · 단위: 1M 토큰"
+          - table [ref=e90]:
+            - rowgroup [ref=e91]:
+              - row "제공업체 모델 입력 단가 ▲ 출력 단가 컨텍스트" [ref=e92]:
+                - columnheader "제공업체" [ref=e93]
+                - columnheader "모델" [ref=e94]
+                - columnheader "입력 단가 ▲" [ref=e95] [cursor=pointer]
+                - columnheader "출력 단가" [ref=e96] [cursor=pointer]: 출력 단가
+                - columnheader "컨텍스트" [ref=e97] [cursor=pointer]: 컨텍스트
+            - rowgroup [ref=e98]:
+              - row "mistral MessagesChat with our most powerful, SOTA models. — $6.00 6" [ref=e99]:
+                - cell "mistral" [ref=e100]:
+                  - generic [ref=e101]: mistral
+                - cell "MessagesChat with our most powerful, SOTA models." [ref=e102]:
+                  - link "MessagesChat with our most powerful, SOTA models." [ref=e103] [cursor=pointer]:
+                    - /url: https://mistral.ai/pricing#api-pricing
+                - cell "—" [ref=e104]
+                - cell "$6.00" [ref=e105]
+                - cell "6" [ref=e106]
+              - row "mistral Web searches — $5.00 5" [ref=e107]:
+                - cell "mistral" [ref=e108]:
+                  - generic [ref=e109]: mistral
+                - cell "Web searches" [ref=e110]:
+                  - link "Web searches" [ref=e111] [cursor=pointer]:
+                    - /url: https://mistral.ai/pricing#api-pricing
+                - cell "—" [ref=e112]
+                - cell "$5.00" [ref=e113]
+                - cell "5" [ref=e114]
+              - 'row "mistral Libraries and document uploadOrganize and include information for your chats. Supported file formats: PDF, images, CSV, all text files (.json...), Office Suite (ppt, xls, docx). — $15.00 30" [ref=e115]':
+                - cell "mistral" [ref=e116]:
+                  - generic [ref=e117]: mistral
+                - 'cell "Libraries and document uploadOrganize and include information for your chats. Supported file formats: PDF, images, CSV, all text files (.json...), Office Suite (ppt, xls, docx)." [ref=e118]':
+                  - 'link "Libraries and document uploadOrganize and include information for your chats. Supported file formats: PDF, images, CSV, all text files (.json...), Office Suite (ppt, xls, docx)." [ref=e119] [cursor=pointer]':
+                    - /url: https://mistral.ai/pricing#api-pricing
+                - cell "—" [ref=e120]
+                - cell "$15.00" [ref=e121]
+                - cell "30" [ref=e122]
+              - row "mistral Project foldersGroup chats into organized, context-rich workspaces. — $1000.00 1K" [ref=e123]:
+                - cell "mistral" [ref=e124]:
+                  - generic [ref=e125]: mistral
+                - cell "Project foldersGroup chats into organized, context-rich workspaces." [ref=e126]:
+                  - link "Project foldersGroup chats into organized, context-rich workspaces." [ref=e127] [cursor=pointer]:
+                    - /url: https://mistral.ai/pricing#api-pricing
+                - cell "—" [ref=e128]
+                - cell "$1000.00" [ref=e129]
+                - cell "1K" [ref=e130]
+              - row "mistral Image generationGenerate and edit high-quality AI images, turning ideas into visuals with just a few words. — $40.00 40" [ref=e131]:
+                - cell "mistral" [ref=e132]:
+                  - generic [ref=e133]: mistral
+                - cell "Image generationGenerate and edit high-quality AI images, turning ideas into visuals with just a few words." [ref=e134]:
+                  - link "Image generationGenerate and edit high-quality AI images, turning ideas into visuals with just a few words." [ref=e135] [cursor=pointer]:
+                    - /url: https://mistral.ai/pricing#api-pricing
+                - cell "—" [ref=e136]
+                - cell "$40.00" [ref=e137]
+                - cell "40" [ref=e138]
+              - row "openrouter inclusionai/ling-2.6-flash $0.010 최저 $0.030 262.144K" [ref=e139]:
+                - cell "openrouter" [ref=e140]:
+                  - generic [ref=e141]: openrouter
+                - cell "inclusionai/ling-2.6-flash" [ref=e142]:
+                  - link "inclusionai/ling-2.6-flash" [ref=e143] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.010 최저" [ref=e144]
+                - cell "$0.030" [ref=e145]
+                - cell "262.144K" [ref=e146]
+              - row "openrouter ibm-granite/granite-4.0-h-micro $0.017 $0.112 131K" [ref=e147]:
+                - cell "openrouter" [ref=e148]:
+                  - generic [ref=e149]: openrouter
+                - cell "ibm-granite/granite-4.0-h-micro" [ref=e150]:
+                  - link "ibm-granite/granite-4.0-h-micro" [ref=e151] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.017" [ref=e152]
+                - cell "$0.112" [ref=e153]
+                - cell "131K" [ref=e154]
+              - row "openrouter meta-llama/llama-3.1-8b-instruct $0.020 $0.050 131.072K" [ref=e155]:
+                - cell "openrouter" [ref=e156]:
+                  - generic [ref=e157]: openrouter
+                - cell "meta-llama/llama-3.1-8b-instruct" [ref=e158]:
+                  - link "meta-llama/llama-3.1-8b-instruct" [ref=e159] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.020" [ref=e160]
+                - cell "$0.050" [ref=e161]
+                - cell "131.072K" [ref=e162]
+              - row "openrouter mistralai/mistral-nemo $0.020 $0.030 131.072K" [ref=e163]:
+                - cell "openrouter" [ref=e164]:
+                  - generic [ref=e165]: openrouter
+                - cell "mistralai/mistral-nemo" [ref=e166]:
+                  - link "mistralai/mistral-nemo" [ref=e167] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.020" [ref=e168]
+                - cell "$0.030" [ref=e169]
+                - cell "131.072K" [ref=e170]
+              - row "openrouter meta-llama/llama-3.2-1b-instruct $0.027 $0.201 131.072K" [ref=e171]:
+                - cell "openrouter" [ref=e172]:
+                  - generic [ref=e173]: openrouter
+                - cell "meta-llama/llama-3.2-1b-instruct" [ref=e174]:
+                  - link "meta-llama/llama-3.2-1b-instruct" [ref=e175] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.027" [ref=e176]
+                - cell "$0.201" [ref=e177]
+                - cell "131.072K" [ref=e178]
+              - row "openrouter liquid/lfm-2-24b-a2b $0.030 $0.120 128K" [ref=e179]:
+                - cell "openrouter" [ref=e180]:
+                  - generic [ref=e181]: openrouter
+                - cell "liquid/lfm-2-24b-a2b" [ref=e182]:
+                  - link "liquid/lfm-2-24b-a2b" [ref=e183] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.030" [ref=e184]
+                - cell "$0.120" [ref=e185]
+                - cell "128K" [ref=e186]
+              - row "openrouter openai/gpt-oss-20b $0.030 $0.140 131.072K" [ref=e187]:
+                - cell "openrouter" [ref=e188]:
+                  - generic [ref=e189]: openrouter
+                - cell "openai/gpt-oss-20b" [ref=e190]:
+                  - link "openai/gpt-oss-20b" [ref=e191] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.030" [ref=e192]
+                - cell "$0.140" [ref=e193]
+                - cell "131.072K" [ref=e194]
+              - row "openrouter amazon/nova-micro-v1 $0.035 $0.140 128K" [ref=e195]:
+                - cell "openrouter" [ref=e196]:
+                  - generic [ref=e197]: openrouter
+                - cell "amazon/nova-micro-v1" [ref=e198]:
+                  - link "amazon/nova-micro-v1" [ref=e199] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.035" [ref=e200]
+                - cell "$0.140" [ref=e201]
+                - cell "128K" [ref=e202]
+              - row "openrouter cohere/command-r7b-12-2024 $0.037 $0.150 128K" [ref=e203]:
+                - cell "openrouter" [ref=e204]:
+                  - generic [ref=e205]: openrouter
+                - cell "cohere/command-r7b-12-2024" [ref=e206]:
+                  - link "cohere/command-r7b-12-2024" [ref=e207] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.037" [ref=e208]
+                - cell "$0.150" [ref=e209]
+                - cell "128K" [ref=e210]
+              - row "openrouter openai/gpt-oss-120b $0.039 $0.180 131.072K" [ref=e211]:
+                - cell "openrouter" [ref=e212]:
+                  - generic [ref=e213]: openrouter
+                - cell "openai/gpt-oss-120b" [ref=e214]:
+                  - link "openai/gpt-oss-120b" [ref=e215] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.039" [ref=e216]
+                - cell "$0.180" [ref=e217]
+                - cell "131.072K" [ref=e218]
+              - row "openrouter qwen/qwen3.5-9b $0.040 $0.150 262.144K" [ref=e219]:
+                - cell "openrouter" [ref=e220]:
+                  - generic [ref=e221]: openrouter
+                - cell "qwen/qwen3.5-9b" [ref=e222]:
+                  - link "qwen/qwen3.5-9b" [ref=e223] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e224]
+                - cell "$0.150" [ref=e225]
+                - cell "262.144K" [ref=e226]
+              - row "openrouter nvidia/nemotron-nano-9b-v2 $0.040 $0.160 131.072K" [ref=e227]:
+                - cell "openrouter" [ref=e228]:
+                  - generic [ref=e229]: openrouter
+                - cell "nvidia/nemotron-nano-9b-v2" [ref=e230]:
+                  - link "nvidia/nemotron-nano-9b-v2" [ref=e231] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e232]
+                - cell "$0.160" [ref=e233]
+                - cell "131.072K" [ref=e234]
+              - row "openrouter google/gemma-3-4b-it $0.040 $0.080 131.072K" [ref=e235]:
+                - cell "openrouter" [ref=e236]:
+                  - generic [ref=e237]: openrouter
+                - cell "google/gemma-3-4b-it" [ref=e238]:
+                  - link "google/gemma-3-4b-it" [ref=e239] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e240]
+                - cell "$0.080" [ref=e241]
+                - cell "131.072K" [ref=e242]
+              - row "openrouter google/gemma-3-12b-it $0.040 $0.130 131.072K" [ref=e243]:
+                - cell "openrouter" [ref=e244]:
+                  - generic [ref=e245]: openrouter
+                - cell "google/gemma-3-12b-it" [ref=e246]:
+                  - link "google/gemma-3-12b-it" [ref=e247] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e248]
+                - cell "$0.130" [ref=e249]
+                - cell "131.072K" [ref=e250]
+              - row "openrouter qwen/qwen-2.5-7b-instruct $0.040 $0.100 131.072K" [ref=e251]:
+                - cell "openrouter" [ref=e252]:
+                  - generic [ref=e253]: openrouter
+                - cell "qwen/qwen-2.5-7b-instruct" [ref=e254]:
+                  - link "qwen/qwen-2.5-7b-instruct" [ref=e255] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e256]
+                - cell "$0.100" [ref=e257]
+                - cell "131.072K" [ref=e258]
+              - row "openrouter sao10k/l3-lunaris-8b $0.040 $0.050 8.192K" [ref=e259]:
+                - cell "openrouter" [ref=e260]:
+                  - generic [ref=e261]: openrouter
+                - cell "sao10k/l3-lunaris-8b" [ref=e262]:
+                  - link "sao10k/l3-lunaris-8b" [ref=e263] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e264]
+                - cell "$0.050" [ref=e265]
+                - cell "8.192K" [ref=e266]
+              - row "openrouter meta-llama/llama-3-8b-instruct $0.040 $0.040 8.192K" [ref=e267]:
+                - cell "openrouter" [ref=e268]:
+                  - generic [ref=e269]: openrouter
+                - cell "meta-llama/llama-3-8b-instruct" [ref=e270]:
+                  - link "meta-llama/llama-3-8b-instruct" [ref=e271] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.040" [ref=e272]
+                - cell "$0.040" [ref=e273]
+                - cell "8.192K" [ref=e274]
+              - row "openrouter arcee-ai/trinity-mini $0.045 $0.150 131.072K" [ref=e275]:
+                - cell "openrouter" [ref=e276]:
+                  - generic [ref=e277]: openrouter
+                - cell "arcee-ai/trinity-mini" [ref=e278]:
+                  - link "arcee-ai/trinity-mini" [ref=e279] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.045" [ref=e280]
+                - cell "$0.150" [ref=e281]
+                - cell "131.072K" [ref=e282]
+              - row "openrouter ibm-granite/granite-4.1-8b $0.050 $0.100 131.072K" [ref=e283]:
+                - cell "openrouter" [ref=e284]:
+                  - generic [ref=e285]: openrouter
+                - cell "ibm-granite/granite-4.1-8b" [ref=e286]:
+                  - link "ibm-granite/granite-4.1-8b" [ref=e287] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.050" [ref=e288]
+                - cell "$0.100" [ref=e289]
+                - cell "131.072K" [ref=e290]
+              - row "openrouter nvidia/nemotron-3-nano-30b-a3b $0.050 $0.200 262.144K" [ref=e291]:
+                - cell "openrouter" [ref=e292]:
+                  - generic [ref=e293]: openrouter
+                - cell "nvidia/nemotron-3-nano-30b-a3b" [ref=e294]:
+                  - link "nvidia/nemotron-3-nano-30b-a3b" [ref=e295] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.050" [ref=e296]
+                - cell "$0.200" [ref=e297]
+                - cell "262.144K" [ref=e298]
+              - row "openrouter openai/gpt-5-nano $0.050 $0.400 400K" [ref=e299]:
+                - cell "openrouter" [ref=e300]:
+                  - generic [ref=e301]: openrouter
+                - cell "openai/gpt-5-nano" [ref=e302]:
+                  - link "openai/gpt-5-nano" [ref=e303] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.050" [ref=e304]
+                - cell "$0.400" [ref=e305]
+                - cell "400K" [ref=e306]
+              - row "openrouter qwen/qwen3-8b $0.050 $0.400 131.072K" [ref=e307]:
+                - cell "openrouter" [ref=e308]:
+                  - generic [ref=e309]: openrouter
+                - cell "qwen/qwen3-8b" [ref=e310]:
+                  - link "qwen/qwen3-8b" [ref=e311] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.050" [ref=e312]
+                - cell "$0.400" [ref=e313]
+                - cell "131.072K" [ref=e314]
+              - row "openrouter mistralai/mistral-small-24b-instruct-2501 $0.050 $0.080 32.768K" [ref=e315]:
+                - cell "openrouter" [ref=e316]:
+                  - generic [ref=e317]: openrouter
+                - cell "mistralai/mistral-small-24b-instruct-2501" [ref=e318]:
+                  - link "mistralai/mistral-small-24b-instruct-2501" [ref=e319] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.050" [ref=e320]
+                - cell "$0.080" [ref=e321]
+                - cell "32.768K" [ref=e322]
+              - row "openrouter meta-llama/llama-3.2-3b-instruct $0.051 $0.335 131.072K" [ref=e323]:
+                - cell "openrouter" [ref=e324]:
+                  - generic [ref=e325]: openrouter
+                - cell "meta-llama/llama-3.2-3b-instruct" [ref=e326]:
+                  - link "meta-llama/llama-3.2-3b-instruct" [ref=e327] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.051" [ref=e328]
+                - cell "$0.335" [ref=e329]
+                - cell "131.072K" [ref=e330]
+              - row "openrouter google/gemma-4-26b-a4b-it $0.060 $0.330 262.144K" [ref=e331]:
+                - cell "openrouter" [ref=e332]:
+                  - generic [ref=e333]: openrouter
+                - cell "google/gemma-4-26b-a4b-it" [ref=e334]:
+                  - link "google/gemma-4-26b-a4b-it" [ref=e335] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.060" [ref=e336]
+                - cell "$0.330" [ref=e337]
+                - cell "262.144K" [ref=e338]
+              - row "openrouter z-ai/glm-4.7-flash $0.060 $0.400 202.752K" [ref=e339]:
+                - cell "openrouter" [ref=e340]:
+                  - generic [ref=e341]: openrouter
+                - cell "z-ai/glm-4.7-flash" [ref=e342]:
+                  - link "z-ai/glm-4.7-flash" [ref=e343] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.060" [ref=e344]
+                - cell "$0.400" [ref=e345]
+                - cell "202.752K" [ref=e346]
+              - row "openrouter google/gemma-3n-e4b-it $0.060 $0.120 32.768K" [ref=e347]:
+                - cell "openrouter" [ref=e348]:
+                  - generic [ref=e349]: openrouter
+                - cell "google/gemma-3n-e4b-it" [ref=e350]:
+                  - link "google/gemma-3n-e4b-it" [ref=e351] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.060" [ref=e352]
+                - cell "$0.120" [ref=e353]
+                - cell "32.768K" [ref=e354]
+              - row "openrouter amazon/nova-lite-v1 $0.060 $0.240 300K" [ref=e355]:
+                - cell "openrouter" [ref=e356]:
+                  - generic [ref=e357]: openrouter
+                - cell "amazon/nova-lite-v1" [ref=e358]:
+                  - link "amazon/nova-lite-v1" [ref=e359] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.060" [ref=e360]
+                - cell "$0.240" [ref=e361]
+                - cell "300K" [ref=e362]
+              - row "openrouter gryphe/mythomax-l2-13b $0.060 $0.060 4.096K" [ref=e363]:
+                - cell "openrouter" [ref=e364]:
+                  - generic [ref=e365]: openrouter
+                - cell "gryphe/mythomax-l2-13b" [ref=e366]:
+                  - link "gryphe/mythomax-l2-13b" [ref=e367] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.060" [ref=e368]
+                - cell "$0.060" [ref=e369]
+                - cell "4.096K" [ref=e370]
+              - row "openrouter tencent/hy3-preview $0.063 $0.210 262.144K" [ref=e371]:
+                - cell "openrouter" [ref=e372]:
+                  - generic [ref=e373]: openrouter
+                - cell "tencent/hy3-preview" [ref=e374]:
+                  - link "tencent/hy3-preview" [ref=e375] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.063" [ref=e376]
+                - cell "$0.210" [ref=e377]
+                - cell "262.144K" [ref=e378]
+              - row "openrouter qwen/qwen3.5-flash-02-23 $0.065 $0.260 1,000K" [ref=e379]:
+                - cell "openrouter" [ref=e380]:
+                  - generic [ref=e381]: openrouter
+                - cell "qwen/qwen3.5-flash-02-23" [ref=e382]:
+                  - link "qwen/qwen3.5-flash-02-23" [ref=e383] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.065" [ref=e384]
+                - cell "$0.260" [ref=e385]
+                - cell "1,000K" [ref=e386]
+              - row "openrouter microsoft/phi-4 $0.065 $0.140 16.384K" [ref=e387]:
+                - cell "openrouter" [ref=e388]:
+                  - generic [ref=e389]: openrouter
+                - cell "microsoft/phi-4" [ref=e390]:
+                  - link "microsoft/phi-4" [ref=e391] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.065" [ref=e392]
+                - cell "$0.140" [ref=e393]
+                - cell "16.384K" [ref=e394]
+              - row "openrouter baidu/ernie-4.5-21b-a3b-thinking $0.070 $0.280 131.072K" [ref=e395]:
+                - cell "openrouter" [ref=e396]:
+                  - generic [ref=e397]: openrouter
+                - cell "baidu/ernie-4.5-21b-a3b-thinking" [ref=e398]:
+                  - link "baidu/ernie-4.5-21b-a3b-thinking" [ref=e399] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.070" [ref=e400]
+                - cell "$0.280" [ref=e401]
+                - cell "131.072K" [ref=e402]
+              - row "openrouter baidu/ernie-4.5-21b-a3b $0.070 $0.280 131.072K" [ref=e403]:
+                - cell "openrouter" [ref=e404]:
+                  - generic [ref=e405]: openrouter
+                - cell "baidu/ernie-4.5-21b-a3b" [ref=e406]:
+                  - link "baidu/ernie-4.5-21b-a3b" [ref=e407] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.070" [ref=e408]
+                - cell "$0.280" [ref=e409]
+                - cell "131.072K" [ref=e410]
+              - row "openrouter qwen/qwen3-coder-30b-a3b-instruct $0.070 $0.270 160K" [ref=e411]:
+                - cell "openrouter" [ref=e412]:
+                  - generic [ref=e413]: openrouter
+                - cell "qwen/qwen3-coder-30b-a3b-instruct" [ref=e414]:
+                  - link "qwen/qwen3-coder-30b-a3b-instruct" [ref=e415] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.070" [ref=e416]
+                - cell "$0.270" [ref=e417]
+                - cell "160K" [ref=e418]
+              - row "openrouter qwen/qwen3-235b-a22b-2507 $0.071 $0.100 262.144K" [ref=e419]:
+                - cell "openrouter" [ref=e420]:
+                  - generic [ref=e421]: openrouter
+                - cell "qwen/qwen3-235b-a22b-2507" [ref=e422]:
+                  - link "qwen/qwen3-235b-a22b-2507" [ref=e423] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.071" [ref=e424]
+                - cell "$0.100" [ref=e425]
+                - cell "262.144K" [ref=e426]
+              - row "openrouter inclusionai/ring-2.6-1t $0.075 $0.625 262.144K" [ref=e427]:
+                - cell "openrouter" [ref=e428]:
+                  - generic [ref=e429]: openrouter
+                - cell "inclusionai/ring-2.6-1t" [ref=e430]:
+                  - link "inclusionai/ring-2.6-1t" [ref=e431] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.075" [ref=e432]
+                - cell "$0.625" [ref=e433]
+                - cell "262.144K" [ref=e434]
+              - row "openrouter inclusionai/ling-2.6-1t $0.075 $0.625 262.144K" [ref=e435]:
+                - cell "openrouter" [ref=e436]:
+                  - generic [ref=e437]: openrouter
+                - cell "inclusionai/ling-2.6-1t" [ref=e438]:
+                  - link "inclusionai/ling-2.6-1t" [ref=e439] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.075" [ref=e440]
+                - cell "$0.625" [ref=e441]
+                - cell "262.144K" [ref=e442]
+              - row "openrouter bytedance-seed/seed-1.6-flash $0.075 $0.300 262.144K" [ref=e443]:
+                - cell "openrouter" [ref=e444]:
+                  - generic [ref=e445]: openrouter
+                - cell "bytedance-seed/seed-1.6-flash" [ref=e446]:
+                  - link "bytedance-seed/seed-1.6-flash" [ref=e447] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.075" [ref=e448]
+                - cell "$0.300" [ref=e449]
+                - cell "262.144K" [ref=e450]
+              - row "openrouter openai/gpt-oss-safeguard-20b $0.075 $0.300 131.072K" [ref=e451]:
+                - cell "openrouter" [ref=e452]:
+                  - generic [ref=e453]: openrouter
+                - cell "openai/gpt-oss-safeguard-20b" [ref=e454]:
+                  - link "openai/gpt-oss-safeguard-20b" [ref=e455] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.075" [ref=e456]
+                - cell "$0.300" [ref=e457]
+                - cell "131.072K" [ref=e458]
+              - row "openrouter mistralai/mistral-small-3.2-24b-instruct $0.075 $0.200 128K" [ref=e459]:
+                - cell "openrouter" [ref=e460]:
+                  - generic [ref=e461]: openrouter
+                - cell "mistralai/mistral-small-3.2-24b-instruct" [ref=e462]:
+                  - link "mistralai/mistral-small-3.2-24b-instruct" [ref=e463] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.075" [ref=e464]
+                - cell "$0.200" [ref=e465]
+                - cell "128K" [ref=e466]
+              - row "openrouter google/gemini-2.0-flash-lite-001 $0.075 $0.300 1,048.576K" [ref=e467]:
+                - cell "openrouter" [ref=e468]:
+                  - generic [ref=e469]: openrouter
+                - cell "google/gemini-2.0-flash-lite-001" [ref=e470]:
+                  - link "google/gemini-2.0-flash-lite-001" [ref=e471] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.075" [ref=e472]
+                - cell "$0.300" [ref=e473]
+                - cell "1,048.576K" [ref=e474]
+              - row "openrouter microsoft/phi-4-mini-instruct $0.080 $0.350 131.072K" [ref=e475]:
+                - cell "openrouter" [ref=e476]:
+                  - generic [ref=e477]: openrouter
+                - cell "microsoft/phi-4-mini-instruct" [ref=e478]:
+                  - link "microsoft/phi-4-mini-instruct" [ref=e479] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.080" [ref=e480]
+                - cell "$0.350" [ref=e481]
+                - cell "131.072K" [ref=e482]
+              - row "openrouter qwen/qwen3-vl-8b-instruct $0.080 $0.500 256K" [ref=e483]:
+                - cell "openrouter" [ref=e484]:
+                  - generic [ref=e485]: openrouter
+                - cell "qwen/qwen3-vl-8b-instruct" [ref=e486]:
+                  - link "qwen/qwen3-vl-8b-instruct" [ref=e487] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.080" [ref=e488]
+                - cell "$0.500" [ref=e489]
+                - cell "256K" [ref=e490]
+              - row "openrouter qwen/qwen3-30b-a3b-thinking-2507 $0.080 $0.400 131.072K" [ref=e491]:
+                - cell "openrouter" [ref=e492]:
+                  - generic [ref=e493]: openrouter
+                - cell "qwen/qwen3-30b-a3b-thinking-2507" [ref=e494]:
+                  - link "qwen/qwen3-30b-a3b-thinking-2507" [ref=e495] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.080" [ref=e496]
+                - cell "$0.400" [ref=e497]
+                - cell "131.072K" [ref=e498]
+              - row "openrouter qwen/qwen3-32b $0.080 $0.280 131.072K" [ref=e499]:
+                - cell "openrouter" [ref=e500]:
+                  - generic [ref=e501]: openrouter
+                - cell "qwen/qwen3-32b" [ref=e502]:
+                  - link "qwen/qwen3-32b" [ref=e503] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.080" [ref=e504]
+                - cell "$0.280" [ref=e505]
+                - cell "131.072K" [ref=e506]
+              - row "openrouter meta-llama/llama-4-scout $0.080 $0.300 10,000K" [ref=e507]:
+                - cell "openrouter" [ref=e508]:
+                  - generic [ref=e509]: openrouter
+                - cell "meta-llama/llama-4-scout" [ref=e510]:
+                  - link "meta-llama/llama-4-scout" [ref=e511] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.080" [ref=e512]
+                - cell "$0.300" [ref=e513]
+                - cell "10,000K" [ref=e514]
+              - row "openrouter google/gemma-3-27b-it $0.080 $0.160 131.072K" [ref=e515]:
+                - cell "openrouter" [ref=e516]:
+                  - generic [ref=e517]: openrouter
+                - cell "google/gemma-3-27b-it" [ref=e518]:
+                  - link "google/gemma-3-27b-it" [ref=e519] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.080" [ref=e520]
+                - cell "$0.160" [ref=e521]
+                - cell "131.072K" [ref=e522]
+              - row "openrouter nvidia/nemotron-3-super-120b-a12b $0.090 $0.450 1,000K" [ref=e523]:
+                - cell "openrouter" [ref=e524]:
+                  - generic [ref=e525]: openrouter
+                - cell "nvidia/nemotron-3-super-120b-a12b" [ref=e526]:
+                  - link "nvidia/nemotron-3-super-120b-a12b" [ref=e527] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.090" [ref=e528]
+                - cell "$0.450" [ref=e529]
+                - cell "1,000K" [ref=e530]
+              - row "openrouter stepfun/step-3.5-flash $0.090 $0.300 262.144K" [ref=e531]:
+                - cell "openrouter" [ref=e532]:
+                  - generic [ref=e533]: openrouter
+                - cell "stepfun/step-3.5-flash" [ref=e534]:
+                  - link "stepfun/step-3.5-flash" [ref=e535] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.090" [ref=e536]
+                - cell "$0.300" [ref=e537]
+                - cell "262.144K" [ref=e538]
+              - row "openrouter qwen/qwen3-next-80b-a3b-instruct $0.090 $1.10 262.144K" [ref=e539]:
+                - cell "openrouter" [ref=e540]:
+                  - generic [ref=e541]: openrouter
+                - cell "qwen/qwen3-next-80b-a3b-instruct" [ref=e542]:
+                  - link "qwen/qwen3-next-80b-a3b-instruct" [ref=e543] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.090" [ref=e544]
+                - cell "$1.10" [ref=e545]
+                - cell "262.144K" [ref=e546]
+              - row "openrouter qwen/qwen3-30b-a3b-instruct-2507 $0.090 $0.300 262.144K" [ref=e547]:
+                - cell "openrouter" [ref=e548]:
+                  - generic [ref=e549]: openrouter
+                - cell "qwen/qwen3-30b-a3b-instruct-2507" [ref=e550]:
+                  - link "qwen/qwen3-30b-a3b-instruct-2507" [ref=e551] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.090" [ref=e552]
+                - cell "$0.300" [ref=e553]
+                - cell "262.144K" [ref=e554]
+              - row "openrouter qwen/qwen3-30b-a3b $0.090 $0.450 131.072K" [ref=e555]:
+                - cell "openrouter" [ref=e556]:
+                  - generic [ref=e557]: openrouter
+                - cell "qwen/qwen3-30b-a3b" [ref=e558]:
+                  - link "qwen/qwen3-30b-a3b" [ref=e559] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.090" [ref=e560]
+                - cell "$0.450" [ref=e561]
+                - cell "131.072K" [ref=e562]
+              - row "openrouter qwen/qwen3-next-80b-a3b-thinking $0.098 $0.780 262.144K" [ref=e563]:
+                - cell "openrouter" [ref=e564]:
+                  - generic [ref=e565]: openrouter
+                - cell "qwen/qwen3-next-80b-a3b-thinking" [ref=e566]:
+                  - link "qwen/qwen3-next-80b-a3b-thinking" [ref=e567] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.098" [ref=e568]
+                - cell "$0.780" [ref=e569]
+                - cell "262.144K" [ref=e570]
+              - row "openrouter deepseek/deepseek-v4-flash $0.100 $0.200 1,048.576K" [ref=e571]:
+                - cell "openrouter" [ref=e572]:
+                  - generic [ref=e573]: openrouter
+                - cell "deepseek/deepseek-v4-flash" [ref=e574]:
+                  - link "deepseek/deepseek-v4-flash" [ref=e575] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e576]
+                - cell "$0.200" [ref=e577]
+                - cell "1,048.576K" [ref=e578]
+              - row "openrouter rekaai/reka-edge $0.100 $0.100 16.384K" [ref=e579]:
+                - cell "openrouter" [ref=e580]:
+                  - generic [ref=e581]: openrouter
+                - cell "rekaai/reka-edge" [ref=e582]:
+                  - link "rekaai/reka-edge" [ref=e583] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e584]
+                - cell "$0.100" [ref=e585]
+                - cell "16.384K" [ref=e586]
+              - row "openrouter bytedance-seed/seed-2.0-mini $0.100 $0.400 262.144K" [ref=e587]:
+                - cell "openrouter" [ref=e588]:
+                  - generic [ref=e589]: openrouter
+                - cell "bytedance-seed/seed-2.0-mini" [ref=e590]:
+                  - link "bytedance-seed/seed-2.0-mini" [ref=e591] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e592]
+                - cell "$0.400" [ref=e593]
+                - cell "262.144K" [ref=e594]
+              - row "openrouter xiaomi/mimo-v2-flash $0.100 $0.300 262.144K" [ref=e595]:
+                - cell "openrouter" [ref=e596]:
+                  - generic [ref=e597]: openrouter
+                - cell "xiaomi/mimo-v2-flash" [ref=e598]:
+                  - link "xiaomi/mimo-v2-flash" [ref=e599] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e600]
+                - cell "$0.300" [ref=e601]
+                - cell "262.144K" [ref=e602]
+              - row "openrouter mistralai/ministral-3b-2512 $0.100 $0.100 131.072K" [ref=e603]:
+                - cell "openrouter" [ref=e604]:
+                  - generic [ref=e605]: openrouter
+                - cell "mistralai/ministral-3b-2512" [ref=e606]:
+                  - link "mistralai/ministral-3b-2512" [ref=e607] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e608]
+                - cell "$0.100" [ref=e609]
+                - cell "131.072K" [ref=e610]
+              - row "openrouter mistralai/voxtral-small-24b-2507 $0.100 $0.300 32K" [ref=e611]:
+                - cell "openrouter" [ref=e612]:
+                  - generic [ref=e613]: openrouter
+                - cell "mistralai/voxtral-small-24b-2507" [ref=e614]:
+                  - link "mistralai/voxtral-small-24b-2507" [ref=e615] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e616]
+                - cell "$0.300" [ref=e617]
+                - cell "32K" [ref=e618]
+              - row "openrouter nvidia/llama-3.3-nemotron-super-49b-v1.5 $0.100 $0.400 131.072K" [ref=e619]:
+                - cell "openrouter" [ref=e620]:
+                  - generic [ref=e621]: openrouter
+                - cell "nvidia/llama-3.3-nemotron-super-49b-v1.5" [ref=e622]:
+                  - link "nvidia/llama-3.3-nemotron-super-49b-v1.5" [ref=e623] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e624]
+                - cell "$0.400" [ref=e625]
+                - cell "131.072K" [ref=e626]
+              - row "openrouter google/gemini-2.5-flash-lite-preview-09-2025 $0.100 $0.400 1,048.576K" [ref=e627]:
+                - cell "openrouter" [ref=e628]:
+                  - generic [ref=e629]: openrouter
+                - cell "google/gemini-2.5-flash-lite-preview-09-2025" [ref=e630]:
+                  - link "google/gemini-2.5-flash-lite-preview-09-2025" [ref=e631] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e632]
+                - cell "$0.400" [ref=e633]
+                - cell "1,048.576K" [ref=e634]
+              - row "openrouter z-ai/glm-4-32b $0.100 $0.100 128K" [ref=e635]:
+                - cell "openrouter" [ref=e636]:
+                  - generic [ref=e637]: openrouter
+                - cell "z-ai/glm-4-32b" [ref=e638]:
+                  - link "z-ai/glm-4-32b" [ref=e639] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e640]
+                - cell "$0.100" [ref=e641]
+                - cell "128K" [ref=e642]
+              - row "openrouter bytedance/ui-tars-1.5-7b $0.100 $0.200 128K" [ref=e643]:
+                - cell "openrouter" [ref=e644]:
+                  - generic [ref=e645]: openrouter
+                - cell "bytedance/ui-tars-1.5-7b" [ref=e646]:
+                  - link "bytedance/ui-tars-1.5-7b" [ref=e647] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e648]
+                - cell "$0.200" [ref=e649]
+                - cell "128K" [ref=e650]
+              - row "openrouter google/gemini-2.5-flash-lite $0.100 $0.400 1,048.576K" [ref=e651]:
+                - cell "openrouter" [ref=e652]:
+                  - generic [ref=e653]: openrouter
+                - cell "google/gemini-2.5-flash-lite" [ref=e654]:
+                  - link "google/gemini-2.5-flash-lite" [ref=e655] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e656]
+                - cell "$0.400" [ref=e657]
+                - cell "1,048.576K" [ref=e658]
+              - row "openrouter mistralai/devstral-small $0.100 $0.300 131.072K" [ref=e659]:
+                - cell "openrouter" [ref=e660]:
+                  - generic [ref=e661]: openrouter
+                - cell "mistralai/devstral-small" [ref=e662]:
+                  - link "mistralai/devstral-small" [ref=e663] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e664]
+                - cell "$0.300" [ref=e665]
+                - cell "131.072K" [ref=e666]
+              - row "openrouter qwen/qwen3-14b $0.100 $0.240 131.702K" [ref=e667]:
+                - cell "openrouter" [ref=e668]:
+                  - generic [ref=e669]: openrouter
+                - cell "qwen/qwen3-14b" [ref=e670]:
+                  - link "qwen/qwen3-14b" [ref=e671] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e672]
+                - cell "$0.240" [ref=e673]
+                - cell "131.702K" [ref=e674]
+              - row "openrouter openai/gpt-4.1-nano $0.100 $0.400 1,047.576K" [ref=e675]:
+                - cell "openrouter" [ref=e676]:
+                  - generic [ref=e677]: openrouter
+                - cell "openai/gpt-4.1-nano" [ref=e678]:
+                  - link "openai/gpt-4.1-nano" [ref=e679] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e680]
+                - cell "$0.400" [ref=e681]
+                - cell "1,047.576K" [ref=e682]
+              - row "openrouter rekaai/reka-flash-3 $0.100 $0.200 65.536K" [ref=e683]:
+                - cell "openrouter" [ref=e684]:
+                  - generic [ref=e685]: openrouter
+                - cell "rekaai/reka-flash-3" [ref=e686]:
+                  - link "rekaai/reka-flash-3" [ref=e687] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e688]
+                - cell "$0.200" [ref=e689]
+                - cell "65.536K" [ref=e690]
+              - row "openrouter google/gemini-2.0-flash-001 $0.100 $0.400 1,000K" [ref=e691]:
+                - cell "openrouter" [ref=e692]:
+                  - generic [ref=e693]: openrouter
+                - cell "google/gemini-2.0-flash-001" [ref=e694]:
+                  - link "google/gemini-2.0-flash-001" [ref=e695] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e696]
+                - cell "$0.400" [ref=e697]
+                - cell "1,000K" [ref=e698]
+              - row "openrouter meta-llama/llama-3.3-70b-instruct $0.100 $0.320 131.072K" [ref=e699]:
+                - cell "openrouter" [ref=e700]:
+                  - generic [ref=e701]: openrouter
+                - cell "meta-llama/llama-3.3-70b-instruct" [ref=e702]:
+                  - link "meta-llama/llama-3.3-70b-instruct" [ref=e703] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.100" [ref=e704]
+                - cell "$0.320" [ref=e705]
+                - cell "131.072K" [ref=e706]
+              - row "openrouter qwen/qwen3-vl-32b-instruct $0.104 $0.416 262.144K" [ref=e707]:
+                - cell "openrouter" [ref=e708]:
+                  - generic [ref=e709]: openrouter
+                - cell "qwen/qwen3-vl-32b-instruct" [ref=e710]:
+                  - link "qwen/qwen3-vl-32b-instruct" [ref=e711] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.104" [ref=e712]
+                - cell "$0.416" [ref=e713]
+                - cell "262.144K" [ref=e714]
+              - row "openrouter qwen/qwen3-coder-next $0.110 $0.800 262.144K" [ref=e715]:
+                - cell "openrouter" [ref=e716]:
+                  - generic [ref=e717]: openrouter
+                - cell "qwen/qwen3-coder-next" [ref=e718]:
+                  - link "qwen/qwen3-coder-next" [ref=e719] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.110" [ref=e720]
+                - cell "$0.800" [ref=e721]
+                - cell "262.144K" [ref=e722]
+              - row "openrouter mistralai/mistral-7b-instruct-v0.1 $0.110 $0.190 4.096K" [ref=e723]:
+                - cell "openrouter" [ref=e724]:
+                  - generic [ref=e725]: openrouter
+                - cell "mistralai/mistral-7b-instruct-v0.1" [ref=e726]:
+                  - link "mistralai/mistral-7b-instruct-v0.1" [ref=e727] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.110" [ref=e728]
+                - cell "$0.190" [ref=e729]
+                - cell "4.096K" [ref=e730]
+              - row "openrouter qwen/qwen3-vl-8b-thinking $0.117 $1.36 256K" [ref=e731]:
+                - cell "openrouter" [ref=e732]:
+                  - generic [ref=e733]: openrouter
+                - cell "qwen/qwen3-vl-8b-thinking" [ref=e734]:
+                  - link "qwen/qwen3-vl-8b-thinking" [ref=e735] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.117" [ref=e736]
+                - cell "$1.36" [ref=e737]
+                - cell "256K" [ref=e738]
+              - row "openrouter google/gemma-4-31b-it $0.120 $0.370 262.144K" [ref=e739]:
+                - cell "openrouter" [ref=e740]:
+                  - generic [ref=e741]: openrouter
+                - cell "google/gemma-4-31b-it" [ref=e742]:
+                  - link "google/gemma-4-31b-it" [ref=e743] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.120" [ref=e744]
+                - cell "$0.370" [ref=e745]
+                - cell "262.144K" [ref=e746]
+              - row "openrouter z-ai/glm-4.5-air $0.125 $0.850 131.072K" [ref=e747]:
+                - cell "openrouter" [ref=e748]:
+                  - generic [ref=e749]: openrouter
+                - cell "z-ai/glm-4.5-air" [ref=e750]:
+                  - link "z-ai/glm-4.5-air" [ref=e751] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.125" [ref=e752]
+                - cell "$0.850" [ref=e753]
+                - cell "131.072K" [ref=e754]
+              - row "openrouter qwen/qwen3-vl-30b-a3b-thinking $0.130 $1.56 131.072K" [ref=e755]:
+                - cell "openrouter" [ref=e756]:
+                  - generic [ref=e757]: openrouter
+                - cell "qwen/qwen3-vl-30b-a3b-thinking" [ref=e758]:
+                  - link "qwen/qwen3-vl-30b-a3b-thinking" [ref=e759] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.130" [ref=e760]
+                - cell "$1.56" [ref=e761]
+                - cell "131.072K" [ref=e762]
+              - row "openrouter qwen/qwen3-vl-30b-a3b-instruct $0.130 $0.520 262.144K" [ref=e763]:
+                - cell "openrouter" [ref=e764]:
+                  - generic [ref=e765]: openrouter
+                - cell "qwen/qwen3-vl-30b-a3b-instruct" [ref=e766]:
+                  - link "qwen/qwen3-vl-30b-a3b-instruct" [ref=e767] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.130" [ref=e768]
+                - cell "$0.520" [ref=e769]
+                - cell "262.144K" [ref=e770]
+              - row "openrouter nousresearch/hermes-4-70b $0.130 $0.400 131.072K" [ref=e771]:
+                - cell "openrouter" [ref=e772]:
+                  - generic [ref=e773]: openrouter
+                - cell "nousresearch/hermes-4-70b" [ref=e774]:
+                  - link "nousresearch/hermes-4-70b" [ref=e775] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.130" [ref=e776]
+                - cell "$0.400" [ref=e777]
+                - cell "131.072K" [ref=e778]
+              - row "openrouter nex-agi/deepseek-v3.1-nex-n1 $0.135 $0.500 131.072K" [ref=e779]:
+                - cell "openrouter" [ref=e780]:
+                  - generic [ref=e781]: openrouter
+                - cell "nex-agi/deepseek-v3.1-nex-n1" [ref=e782]:
+                  - link "nex-agi/deepseek-v3.1-nex-n1" [ref=e783] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.135" [ref=e784]
+                - cell "$0.500" [ref=e785]
+                - cell "131.072K" [ref=e786]
+              - row "openrouter qwen/qwen3.5-35b-a3b $0.139 $1.00 262.144K" [ref=e787]:
+                - cell "openrouter" [ref=e788]:
+                  - generic [ref=e789]: openrouter
+                - cell "qwen/qwen3.5-35b-a3b" [ref=e790]:
+                  - link "qwen/qwen3.5-35b-a3b" [ref=e791] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.139" [ref=e792]
+                - cell "$1.00" [ref=e793]
+                - cell "262.144K" [ref=e794]
+              - row "openrouter qwen/qwen3.6-35b-a3b $0.140 $1.00 262.144K" [ref=e795]:
+                - cell "openrouter" [ref=e796]:
+                  - generic [ref=e797]: openrouter
+                - cell "qwen/qwen3.6-35b-a3b" [ref=e798]:
+                  - link "qwen/qwen3.6-35b-a3b" [ref=e799] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.140" [ref=e800]
+                - cell "$1.00" [ref=e801]
+                - cell "262.144K" [ref=e802]
+              - row "openrouter xiaomi/mimo-v2.5 $0.140 $0.280 1,048.576K" [ref=e803]:
+                - cell "openrouter" [ref=e804]:
+                  - generic [ref=e805]: openrouter
+                - cell "xiaomi/mimo-v2.5" [ref=e806]:
+                  - link "xiaomi/mimo-v2.5" [ref=e807] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.140" [ref=e808]
+                - cell "$0.280" [ref=e809]
+                - cell "1,048.576K" [ref=e810]
+              - row "openrouter baidu/ernie-4.5-vl-28b-a3b $0.140 $0.560 131.072K" [ref=e811]:
+                - cell "openrouter" [ref=e812]:
+                  - generic [ref=e813]: openrouter
+                - cell "baidu/ernie-4.5-vl-28b-a3b" [ref=e814]:
+                  - link "baidu/ernie-4.5-vl-28b-a3b" [ref=e815] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.140" [ref=e816]
+                - cell "$0.560" [ref=e817]
+                - cell "131.072K" [ref=e818]
+              - row "openrouter tencent/hunyuan-a13b-instruct $0.140 $0.570 131.072K" [ref=e819]:
+                - cell "openrouter" [ref=e820]:
+                  - generic [ref=e821]: openrouter
+                - cell "tencent/hunyuan-a13b-instruct" [ref=e822]:
+                  - link "tencent/hunyuan-a13b-instruct" [ref=e823] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.140" [ref=e824]
+                - cell "$0.570" [ref=e825]
+                - cell "131.072K" [ref=e826]
+              - row "openrouter nousresearch/hermes-2-pro-llama-3-8b $0.140 $0.140 8.192K" [ref=e827]:
+                - cell "openrouter" [ref=e828]:
+                  - generic [ref=e829]: openrouter
+                - cell "nousresearch/hermes-2-pro-llama-3-8b" [ref=e830]:
+                  - link "nousresearch/hermes-2-pro-llama-3-8b" [ref=e831] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.140" [ref=e832]
+                - cell "$0.140" [ref=e833]
+                - cell "8.192K" [ref=e834]
+              - row "openrouter qwen/qwen3-235b-a22b-thinking-2507 $0.149 $1.50 262.144K" [ref=e835]:
+                - cell "openrouter" [ref=e836]:
+                  - generic [ref=e837]: openrouter
+                - cell "qwen/qwen3-235b-a22b-thinking-2507" [ref=e838]:
+                  - link "qwen/qwen3-235b-a22b-thinking-2507" [ref=e839] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.149" [ref=e840]
+                - cell "$1.50" [ref=e841]
+                - cell "262.144K" [ref=e842]
+              - row "openrouter perceptron/perceptron-mk1 $0.150 $1.50 32.768K" [ref=e843]:
+                - cell "openrouter" [ref=e844]:
+                  - generic [ref=e845]: openrouter
+                - cell "perceptron/perceptron-mk1" [ref=e846]:
+                  - link "perceptron/perceptron-mk1" [ref=e847] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e848]
+                - cell "$1.50" [ref=e849]
+                - cell "32.768K" [ref=e850]
+              - row "openrouter mistralai/mistral-small-2603 $0.150 $0.600 262.144K" [ref=e851]:
+                - cell "openrouter" [ref=e852]:
+                  - generic [ref=e853]: openrouter
+                - cell "mistralai/mistral-small-2603" [ref=e854]:
+                  - link "mistralai/mistral-small-2603" [ref=e855] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e856]
+                - cell "$0.600" [ref=e857]
+                - cell "262.144K" [ref=e858]
+              - row "openrouter minimax/minimax-m2.5 $0.150 $1.15 204.8K" [ref=e859]:
+                - cell "openrouter" [ref=e860]:
+                  - generic [ref=e861]: openrouter
+                - cell "minimax/minimax-m2.5" [ref=e862]:
+                  - link "minimax/minimax-m2.5" [ref=e863] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e864]
+                - cell "$1.15" [ref=e865]
+                - cell "204.8K" [ref=e866]
+              - row "openrouter upstage/solar-pro-3 $0.150 $0.600 128K" [ref=e867]:
+                - cell "openrouter" [ref=e868]:
+                  - generic [ref=e869]: openrouter
+                - cell "upstage/solar-pro-3" [ref=e870]:
+                  - link "upstage/solar-pro-3" [ref=e871] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e872]
+                - cell "$0.600" [ref=e873]
+                - cell "128K" [ref=e874]
+              - row "openrouter essentialai/rnj-1-instruct $0.150 $0.150 32.768K" [ref=e875]:
+                - cell "openrouter" [ref=e876]:
+                  - generic [ref=e877]: openrouter
+                - cell "essentialai/rnj-1-instruct" [ref=e878]:
+                  - link "essentialai/rnj-1-instruct" [ref=e879] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e880]
+                - cell "$0.150" [ref=e881]
+                - cell "32.768K" [ref=e882]
+              - row "openrouter mistralai/ministral-8b-2512 $0.150 $0.150 262.144K" [ref=e883]:
+                - cell "openrouter" [ref=e884]:
+                  - generic [ref=e885]: openrouter
+                - cell "mistralai/ministral-8b-2512" [ref=e886]:
+                  - link "mistralai/ministral-8b-2512" [ref=e887] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e888]
+                - cell "$0.150" [ref=e889]
+                - cell "262.144K" [ref=e890]
+              - row "openrouter allenai/olmo-3-32b-think $0.150 $0.500 65.536K" [ref=e891]:
+                - cell "openrouter" [ref=e892]:
+                  - generic [ref=e893]: openrouter
+                - cell "allenai/olmo-3-32b-think" [ref=e894]:
+                  - link "allenai/olmo-3-32b-think" [ref=e895] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e896]
+                - cell "$0.500" [ref=e897]
+                - cell "65.536K" [ref=e898]
+              - row "openrouter meta-llama/llama-4-maverick $0.150 $0.600 1,048.576K" [ref=e899]:
+                - cell "openrouter" [ref=e900]:
+                  - generic [ref=e901]: openrouter
+                - cell "meta-llama/llama-4-maverick" [ref=e902]:
+                  - link "meta-llama/llama-4-maverick" [ref=e903] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e904]
+                - cell "$0.600" [ref=e905]
+                - cell "1,048.576K" [ref=e906]
+              - row "openrouter openai/gpt-4o-mini-search-preview $0.150 $0.600 128K" [ref=e907]:
+                - cell "openrouter" [ref=e908]:
+                  - generic [ref=e909]: openrouter
+                - cell "openai/gpt-4o-mini-search-preview" [ref=e910]:
+                  - link "openai/gpt-4o-mini-search-preview" [ref=e911] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e912]
+                - cell "$0.600" [ref=e913]
+                - cell "128K" [ref=e914]
+              - row "openrouter cohere/command-r-08-2024 $0.150 $0.600 128K" [ref=e915]:
+                - cell "openrouter" [ref=e916]:
+                  - generic [ref=e917]: openrouter
+                - cell "cohere/command-r-08-2024" [ref=e918]:
+                  - link "cohere/command-r-08-2024" [ref=e919] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e920]
+                - cell "$0.600" [ref=e921]
+                - cell "128K" [ref=e922]
+              - row "openrouter openai/gpt-4o-mini $0.150 $0.600 128K" [ref=e923]:
+                - cell "openrouter" [ref=e924]:
+                  - generic [ref=e925]: openrouter
+                - cell "openai/gpt-4o-mini" [ref=e926]:
+                  - link "openai/gpt-4o-mini" [ref=e927] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e928]
+                - cell "$0.600" [ref=e929]
+                - cell "128K" [ref=e930]
+              - row "openrouter openai/gpt-4o-mini-2024-07-18 $0.150 $0.600 128K" [ref=e931]:
+                - cell "openrouter" [ref=e932]:
+                  - generic [ref=e933]: openrouter
+                - cell "openai/gpt-4o-mini-2024-07-18" [ref=e934]:
+                  - link "openai/gpt-4o-mini-2024-07-18" [ref=e935] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.150" [ref=e936]
+                - cell "$0.600" [ref=e937]
+                - cell "128K" [ref=e938]
+              - row "openrouter thedrummer/rocinante-12b $0.170 $0.430 32.768K" [ref=e939]:
+                - cell "openrouter" [ref=e940]:
+                  - generic [ref=e941]: openrouter
+                - cell "thedrummer/rocinante-12b" [ref=e942]:
+                  - link "thedrummer/rocinante-12b" [ref=e943] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.170" [ref=e944]
+                - cell "$0.430" [ref=e945]
+                - cell "32.768K" [ref=e946]
+              - row "openrouter arcee-ai/spotlight $0.180 $0.180 131.072K" [ref=e947]:
+                - cell "openrouter" [ref=e948]:
+                  - generic [ref=e949]: openrouter
+                - cell "arcee-ai/spotlight" [ref=e950]:
+                  - link "arcee-ai/spotlight" [ref=e951] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.180" [ref=e952]
+                - cell "$0.180" [ref=e953]
+                - cell "131.072K" [ref=e954]
+              - row "openrouter meta-llama/llama-guard-4-12b $0.180 $0.180 163.84K" [ref=e955]:
+                - cell "openrouter" [ref=e956]:
+                  - generic [ref=e957]: openrouter
+                - cell "meta-llama/llama-guard-4-12b" [ref=e958]:
+                  - link "meta-llama/llama-guard-4-12b" [ref=e959] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.180" [ref=e960]
+                - cell "$0.180" [ref=e961]
+                - cell "163.84K" [ref=e962]
+              - row "openrouter qwen/qwen3.6-flash $0.188 $1.13 1,000K" [ref=e963]:
+                - cell "openrouter" [ref=e964]:
+                  - generic [ref=e965]: openrouter
+                - cell "qwen/qwen3.6-flash" [ref=e966]:
+                  - link "qwen/qwen3.6-flash" [ref=e967] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.188" [ref=e968]
+                - cell "$1.13" [ref=e969]
+                - cell "1,000K" [ref=e970]
+              - row "openrouter qwen/qwen3.5-27b $0.195 $1.56 262.144K" [ref=e971]:
+                - cell "openrouter" [ref=e972]:
+                  - generic [ref=e973]: openrouter
+                - cell "qwen/qwen3.5-27b" [ref=e974]:
+                  - link "qwen/qwen3.5-27b" [ref=e975] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.195" [ref=e976]
+                - cell "$1.56" [ref=e977]
+                - cell "262.144K" [ref=e978]
+              - row "openrouter qwen/qwen3-coder-flash $0.195 $0.975 1,000K" [ref=e979]:
+                - cell "openrouter" [ref=e980]:
+                  - generic [ref=e981]: openrouter
+                - cell "qwen/qwen3-coder-flash" [ref=e982]:
+                  - link "qwen/qwen3-coder-flash" [ref=e983] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.195" [ref=e984]
+                - cell "$0.975" [ref=e985]
+                - cell "1,000K" [ref=e986]
+              - row "openrouter stepfun/step-3.7-flash $0.200 $1.15 256K" [ref=e987]:
+                - cell "openrouter" [ref=e988]:
+                  - generic [ref=e989]: openrouter
+                - cell "stepfun/step-3.7-flash" [ref=e990]:
+                  - link "stepfun/step-3.7-flash" [ref=e991] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e992]
+                - cell "$1.15" [ref=e993]
+                - cell "256K" [ref=e994]
+              - row "openrouter openai/gpt-5.4-nano $0.200 $1.25 400K" [ref=e995]:
+                - cell "openrouter" [ref=e996]:
+                  - generic [ref=e997]: openrouter
+                - cell "openai/gpt-5.4-nano" [ref=e998]:
+                  - link "openai/gpt-5.4-nano" [ref=e999] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1000]
+                - cell "$1.25" [ref=e1001]
+                - cell "400K" [ref=e1002]
+              - row "openrouter mistralai/ministral-14b-2512 $0.200 $0.200 262.144K" [ref=e1003]:
+                - cell "openrouter" [ref=e1004]:
+                  - generic [ref=e1005]: openrouter
+                - cell "mistralai/ministral-14b-2512" [ref=e1006]:
+                  - link "mistralai/ministral-14b-2512" [ref=e1007] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1008]
+                - cell "$0.200" [ref=e1009]
+                - cell "262.144K" [ref=e1010]
+              - row "openrouter prime-intellect/intellect-3 $0.200 $1.10 131.072K" [ref=e1011]:
+                - cell "openrouter" [ref=e1012]:
+                  - generic [ref=e1013]: openrouter
+                - cell "prime-intellect/intellect-3" [ref=e1014]:
+                  - link "prime-intellect/intellect-3" [ref=e1015] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1016]
+                - cell "$1.10" [ref=e1017]
+                - cell "131.072K" [ref=e1018]
+              - row "openrouter qwen/qwen3-vl-235b-a22b-instruct $0.200 $0.880 262.144K" [ref=e1019]:
+                - cell "openrouter" [ref=e1020]:
+                  - generic [ref=e1021]: openrouter
+                - cell "qwen/qwen3-vl-235b-a22b-instruct" [ref=e1022]:
+                  - link "qwen/qwen3-vl-235b-a22b-instruct" [ref=e1023] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1024]
+                - cell "$0.880" [ref=e1025]
+                - cell "262.144K" [ref=e1026]
+              - row "openrouter deepseek/deepseek-chat-v3-0324 $0.200 $0.770 163.84K" [ref=e1027]:
+                - cell "openrouter" [ref=e1028]:
+                  - generic [ref=e1029]: openrouter
+                - cell "deepseek/deepseek-chat-v3-0324" [ref=e1030]:
+                  - link "deepseek/deepseek-chat-v3-0324" [ref=e1031] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1032]
+                - cell "$0.770" [ref=e1033]
+                - cell "163.84K" [ref=e1034]
+              - row "openrouter mistralai/mistral-saba $0.200 $0.600 32.768K" [ref=e1035]:
+                - cell "openrouter" [ref=e1036]:
+                  - generic [ref=e1037]: openrouter
+                - cell "mistralai/mistral-saba" [ref=e1038]:
+                  - link "mistralai/mistral-saba" [ref=e1039] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1040]
+                - cell "$0.600" [ref=e1041]
+                - cell "32.768K" [ref=e1042]
+              - row "openrouter minimax/minimax-01 $0.200 $1.10 1,000.192K" [ref=e1043]:
+                - cell "openrouter" [ref=e1044]:
+                  - generic [ref=e1045]: openrouter
+                - cell "minimax/minimax-01" [ref=e1046]:
+                  - link "minimax/minimax-01" [ref=e1047] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.200" [ref=e1048]
+                - cell "$1.10" [ref=e1049]
+                - cell "1,000.192K" [ref=e1050]
+              - row "openrouter deepseek/deepseek-chat-v3.1 $0.210 $0.790 163.84K" [ref=e1051]:
+                - cell "openrouter" [ref=e1052]:
+                  - generic [ref=e1053]: openrouter
+                - cell "deepseek/deepseek-chat-v3.1" [ref=e1054]:
+                  - link "deepseek/deepseek-chat-v3.1" [ref=e1055] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.210" [ref=e1056]
+                - cell "$0.790" [ref=e1057]
+                - cell "163.84K" [ref=e1058]
+              - row "openrouter arcee-ai/trinity-large-thinking $0.220 $0.850 262.144K" [ref=e1059]:
+                - cell "openrouter" [ref=e1060]:
+                  - generic [ref=e1061]: openrouter
+                - cell "arcee-ai/trinity-large-thinking" [ref=e1062]:
+                  - link "arcee-ai/trinity-large-thinking" [ref=e1063] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.220" [ref=e1064]
+                - cell "$0.850" [ref=e1065]
+                - cell "262.144K" [ref=e1066]
+              - row "openrouter qwen/qwen3-coder $0.220 $1.80 1,048.576K" [ref=e1067]:
+                - cell "openrouter" [ref=e1068]:
+                  - generic [ref=e1069]: openrouter
+                - cell "qwen/qwen3-coder" [ref=e1070]:
+                  - link "qwen/qwen3-coder" [ref=e1071] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.220" [ref=e1072]
+                - cell "$1.80" [ref=e1073]
+                - cell "1,048.576K" [ref=e1074]
+              - row "openrouter deepseek/deepseek-chat $0.229 $0.914 131.072K" [ref=e1075]:
+                - cell "openrouter" [ref=e1076]:
+                  - generic [ref=e1077]: openrouter
+                - cell "deepseek/deepseek-chat" [ref=e1078]:
+                  - link "deepseek/deepseek-chat" [ref=e1079] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.229" [ref=e1080]
+                - cell "$0.914" [ref=e1081]
+                - cell "131.072K" [ref=e1082]
+              - row "openrouter meta-llama/llama-3.2-11b-vision-instruct $0.245 $0.245 131.072K" [ref=e1083]:
+                - cell "openrouter" [ref=e1084]:
+                  - generic [ref=e1085]: openrouter
+                - cell "meta-llama/llama-3.2-11b-vision-instruct" [ref=e1086]:
+                  - link "meta-llama/llama-3.2-11b-vision-instruct" [ref=e1087] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.245" [ref=e1088]
+                - cell "$0.245" [ref=e1089]
+                - cell "131.072K" [ref=e1090]
+              - row "openrouter google/gemini-3.1-flash-lite $0.250 $1.50 1,048.576K" [ref=e1091]:
+                - cell "openrouter" [ref=e1092]:
+                  - generic [ref=e1093]: openrouter
+                - cell "google/gemini-3.1-flash-lite" [ref=e1094]:
+                  - link "google/gemini-3.1-flash-lite" [ref=e1095] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1096]
+                - cell "$1.50" [ref=e1097]
+                - cell "1,048.576K" [ref=e1098]
+              - row "openrouter bytedance-seed/seed-2.0-lite $0.250 $2.00 262.144K" [ref=e1099]:
+                - cell "openrouter" [ref=e1100]:
+                  - generic [ref=e1101]: openrouter
+                - cell "bytedance-seed/seed-2.0-lite" [ref=e1102]:
+                  - link "bytedance-seed/seed-2.0-lite" [ref=e1103] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1104]
+                - cell "$2.00" [ref=e1105]
+                - cell "262.144K" [ref=e1106]
+              - row "openrouter inception/mercury-2 $0.250 $0.750 128K" [ref=e1107]:
+                - cell "openrouter" [ref=e1108]:
+                  - generic [ref=e1109]: openrouter
+                - cell "inception/mercury-2" [ref=e1110]:
+                  - link "inception/mercury-2" [ref=e1111] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1112]
+                - cell "$0.750" [ref=e1113]
+                - cell "128K" [ref=e1114]
+              - row "openrouter google/gemini-3.1-flash-lite-preview $0.250 $1.50 1,048.576K" [ref=e1115]:
+                - cell "openrouter" [ref=e1116]:
+                  - generic [ref=e1117]: openrouter
+                - cell "google/gemini-3.1-flash-lite-preview" [ref=e1118]:
+                  - link "google/gemini-3.1-flash-lite-preview" [ref=e1119] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1120]
+                - cell "$1.50" [ref=e1121]
+                - cell "1,048.576K" [ref=e1122]
+              - row "openrouter bytedance-seed/seed-1.6 $0.250 $2.00 262.144K" [ref=e1123]:
+                - cell "openrouter" [ref=e1124]:
+                  - generic [ref=e1125]: openrouter
+                - cell "bytedance-seed/seed-1.6" [ref=e1126]:
+                  - link "bytedance-seed/seed-1.6" [ref=e1127] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1128]
+                - cell "$2.00" [ref=e1129]
+                - cell "262.144K" [ref=e1130]
+              - row "openrouter openai/gpt-5.1-codex-mini $0.250 $2.00 400K" [ref=e1131]:
+                - cell "openrouter" [ref=e1132]:
+                  - generic [ref=e1133]: openrouter
+                - cell "openai/gpt-5.1-codex-mini" [ref=e1134]:
+                  - link "openai/gpt-5.1-codex-mini" [ref=e1135] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1136]
+                - cell "$2.00" [ref=e1137]
+                - cell "400K" [ref=e1138]
+              - row "openrouter openai/gpt-5-mini $0.250 $2.00 400K" [ref=e1139]:
+                - cell "openrouter" [ref=e1140]:
+                  - generic [ref=e1141]: openrouter
+                - cell "openai/gpt-5-mini" [ref=e1142]:
+                  - link "openai/gpt-5-mini" [ref=e1143] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1144]
+                - cell "$2.00" [ref=e1145]
+                - cell "400K" [ref=e1146]
+              - row "openrouter qwen/qwen2.5-vl-72b-instruct $0.250 $0.750 131.072K" [ref=e1147]:
+                - cell "openrouter" [ref=e1148]:
+                  - generic [ref=e1149]: openrouter
+                - cell "qwen/qwen2.5-vl-72b-instruct" [ref=e1150]:
+                  - link "qwen/qwen2.5-vl-72b-instruct" [ref=e1151] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1152]
+                - cell "$0.750" [ref=e1153]
+                - cell "131.072K" [ref=e1154]
+              - row "openrouter anthropic/claude-3-haiku $0.250 $1.25 200K" [ref=e1155]:
+                - cell "openrouter" [ref=e1156]:
+                  - generic [ref=e1157]: openrouter
+                - cell "anthropic/claude-3-haiku" [ref=e1158]:
+                  - link "anthropic/claude-3-haiku" [ref=e1159] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.250" [ref=e1160]
+                - cell "$1.25" [ref=e1161]
+                - cell "200K" [ref=e1162]
+              - row "openrouter deepseek/deepseek-v3.2 $0.252 $0.378 131.072K" [ref=e1163]:
+                - cell "openrouter" [ref=e1164]:
+                  - generic [ref=e1165]: openrouter
+                - cell "deepseek/deepseek-v3.2" [ref=e1166]:
+                  - link "deepseek/deepseek-v3.2" [ref=e1167] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.252" [ref=e1168]
+                - cell "$0.378" [ref=e1169]
+                - cell "131.072K" [ref=e1170]
+              - row "openrouter minimax/minimax-m2 $0.255 $1.00 204.8K" [ref=e1171]:
+                - cell "openrouter" [ref=e1172]:
+                  - generic [ref=e1173]: openrouter
+                - cell "minimax/minimax-m2" [ref=e1174]:
+                  - link "minimax/minimax-m2" [ref=e1175] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.255" [ref=e1176]
+                - cell "$1.00" [ref=e1177]
+                - cell "204.8K" [ref=e1178]
+              - row "openrouter qwen/qwen3.5-122b-a10b $0.260 $2.08 262.144K" [ref=e1179]:
+                - cell "openrouter" [ref=e1180]:
+                  - generic [ref=e1181]: openrouter
+                - cell "qwen/qwen3.5-122b-a10b" [ref=e1182]:
+                  - link "qwen/qwen3.5-122b-a10b" [ref=e1183] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.260" [ref=e1184]
+                - cell "$2.08" [ref=e1185]
+                - cell "262.144K" [ref=e1186]
+              - row "openrouter qwen/qwen3.5-plus-02-15 $0.260 $1.56 1,000K" [ref=e1187]:
+                - cell "openrouter" [ref=e1188]:
+                  - generic [ref=e1189]: openrouter
+                - cell "qwen/qwen3.5-plus-02-15" [ref=e1190]:
+                  - link "qwen/qwen3.5-plus-02-15" [ref=e1191] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.260" [ref=e1192]
+                - cell "$1.56" [ref=e1193]
+                - cell "1,000K" [ref=e1194]
+              - row "openrouter qwen/qwen3-vl-235b-a22b-thinking $0.260 $2.60 131.072K" [ref=e1195]:
+                - cell "openrouter" [ref=e1196]:
+                  - generic [ref=e1197]: openrouter
+                - cell "qwen/qwen3-vl-235b-a22b-thinking" [ref=e1198]:
+                  - link "qwen/qwen3-vl-235b-a22b-thinking" [ref=e1199] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.260" [ref=e1200]
+                - cell "$2.60" [ref=e1201]
+                - cell "131.072K" [ref=e1202]
+              - row "openrouter qwen/qwen-plus-2025-07-28:thinking $0.260 $0.780 1,000K" [ref=e1203]:
+                - cell "openrouter" [ref=e1204]:
+                  - generic [ref=e1205]: openrouter
+                - cell "qwen/qwen-plus-2025-07-28:thinking" [ref=e1206]:
+                  - link "qwen/qwen-plus-2025-07-28:thinking" [ref=e1207] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.260" [ref=e1208]
+                - cell "$0.780" [ref=e1209]
+                - cell "1,000K" [ref=e1210]
+              - row "openrouter qwen/qwen-plus-2025-07-28 $0.260 $0.780 1,000K" [ref=e1211]:
+                - cell "openrouter" [ref=e1212]:
+                  - generic [ref=e1213]: openrouter
+                - cell "qwen/qwen-plus-2025-07-28" [ref=e1214]:
+                  - link "qwen/qwen-plus-2025-07-28" [ref=e1215] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.260" [ref=e1216]
+                - cell "$0.780" [ref=e1217]
+                - cell "1,000K" [ref=e1218]
+              - row "openrouter qwen/qwen-plus $0.260 $0.780 1,000K" [ref=e1219]:
+                - cell "openrouter" [ref=e1220]:
+                  - generic [ref=e1221]: openrouter
+                - cell "qwen/qwen-plus" [ref=e1222]:
+                  - link "qwen/qwen-plus" [ref=e1223] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.260" [ref=e1224]
+                - cell "$0.780" [ref=e1225]
+                - cell "1,000K" [ref=e1226]
+              - row "openrouter deepseek/deepseek-v3.2-exp $0.270 $0.410 163.84K" [ref=e1227]:
+                - cell "openrouter" [ref=e1228]:
+                  - generic [ref=e1229]: openrouter
+                - cell "deepseek/deepseek-v3.2-exp" [ref=e1230]:
+                  - link "deepseek/deepseek-v3.2-exp" [ref=e1231] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.270" [ref=e1232]
+                - cell "$0.410" [ref=e1233]
+                - cell "163.84K" [ref=e1234]
+              - row "openrouter deepseek/deepseek-v3.1-terminus $0.270 $0.950 163.84K" [ref=e1235]:
+                - cell "openrouter" [ref=e1236]:
+                  - generic [ref=e1237]: openrouter
+                - cell "deepseek/deepseek-v3.1-terminus" [ref=e1238]:
+                  - link "deepseek/deepseek-v3.1-terminus" [ref=e1239] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.270" [ref=e1240]
+                - cell "$0.950" [ref=e1241]
+                - cell "163.84K" [ref=e1242]
+              - row "openrouter minimax/minimax-m2.7 $0.279 $1.20 204.8K" [ref=e1243]:
+                - cell "openrouter" [ref=e1244]:
+                  - generic [ref=e1245]: openrouter
+                - cell "minimax/minimax-m2.7" [ref=e1246]:
+                  - link "minimax/minimax-m2.7" [ref=e1247] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.279" [ref=e1248]
+                - cell "$1.20" [ref=e1249]
+                - cell "204.8K" [ref=e1250]
+              - row "openrouter baidu/ernie-4.5-300b-a47b $0.280 $1.10 131.072K" [ref=e1251]:
+                - cell "openrouter" [ref=e1252]:
+                  - generic [ref=e1253]: openrouter
+                - cell "baidu/ernie-4.5-300b-a47b" [ref=e1254]:
+                  - link "baidu/ernie-4.5-300b-a47b" [ref=e1255] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.280" [ref=e1256]
+                - cell "$1.10" [ref=e1257]
+                - cell "131.072K" [ref=e1258]
+              - row "openrouter qwen/qwen3.6-27b $0.290 $3.20 262.144K" [ref=e1259]:
+                - cell "openrouter" [ref=e1260]:
+                  - generic [ref=e1261]: openrouter
+                - cell "qwen/qwen3.6-27b" [ref=e1262]:
+                  - link "qwen/qwen3.6-27b" [ref=e1263] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.290" [ref=e1264]
+                - cell "$3.20" [ref=e1265]
+                - cell "262.144K" [ref=e1266]
+              - row "openrouter minimax/minimax-m2.1 $0.290 $0.950 204.8K" [ref=e1267]:
+                - cell "openrouter" [ref=e1268]:
+                  - generic [ref=e1269]: openrouter
+                - cell "minimax/minimax-m2.1" [ref=e1270]:
+                  - link "minimax/minimax-m2.1" [ref=e1271] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.290" [ref=e1272]
+                - cell "$0.950" [ref=e1273]
+                - cell "204.8K" [ref=e1274]
+              - row "openrouter deepseek/deepseek-r1-distill-qwen-32b $0.290 $0.290 128K" [ref=e1275]:
+                - cell "openrouter" [ref=e1276]:
+                  - generic [ref=e1277]: openrouter
+                - cell "deepseek/deepseek-r1-distill-qwen-32b" [ref=e1278]:
+                  - link "deepseek/deepseek-r1-distill-qwen-32b" [ref=e1279] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.290" [ref=e1280]
+                - cell "$0.290" [ref=e1281]
+                - cell "128K" [ref=e1282]
+              - row "openrouter qwen/qwen3.5-plus-20260420 $0.300 $1.80 1,000K" [ref=e1283]:
+                - cell "openrouter" [ref=e1284]:
+                  - generic [ref=e1285]: openrouter
+                - cell "qwen/qwen3.5-plus-20260420" [ref=e1286]:
+                  - link "qwen/qwen3.5-plus-20260420" [ref=e1287] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1288]
+                - cell "$1.80" [ref=e1289]
+                - cell "1,000K" [ref=e1290]
+              - row "openrouter kwaipilot/kat-coder-pro-v2 $0.300 $1.20 256K" [ref=e1291]:
+                - cell "openrouter" [ref=e1292]:
+                  - generic [ref=e1293]: openrouter
+                - cell "kwaipilot/kat-coder-pro-v2" [ref=e1294]:
+                  - link "kwaipilot/kat-coder-pro-v2" [ref=e1295] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1296]
+                - cell "$1.20" [ref=e1297]
+                - cell "256K" [ref=e1298]
+              - row "openrouter minimax/minimax-m2-her $0.300 $1.20 65.536K" [ref=e1299]:
+                - cell "openrouter" [ref=e1300]:
+                  - generic [ref=e1301]: openrouter
+                - cell "minimax/minimax-m2-her" [ref=e1302]:
+                  - link "minimax/minimax-m2-her" [ref=e1303] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1304]
+                - cell "$1.20" [ref=e1305]
+                - cell "65.536K" [ref=e1306]
+              - row "openrouter z-ai/glm-4.6v $0.300 $0.900 131.072K" [ref=e1307]:
+                - cell "openrouter" [ref=e1308]:
+                  - generic [ref=e1309]: openrouter
+                - cell "z-ai/glm-4.6v" [ref=e1310]:
+                  - link "z-ai/glm-4.6v" [ref=e1311] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1312]
+                - cell "$0.900" [ref=e1313]
+                - cell "131.072K" [ref=e1314]
+              - row "openrouter amazon/nova-2-lite-v1 $0.300 $2.50 1,000K" [ref=e1315]:
+                - cell "openrouter" [ref=e1316]:
+                  - generic [ref=e1317]: openrouter
+                - cell "amazon/nova-2-lite-v1" [ref=e1318]:
+                  - link "amazon/nova-2-lite-v1" [ref=e1319] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1320]
+                - cell "$2.50" [ref=e1321]
+                - cell "1,000K" [ref=e1322]
+              - row "openrouter google/gemini-2.5-flash-image $0.300 $2.50 32.768K" [ref=e1323]:
+                - cell "openrouter" [ref=e1324]:
+                  - generic [ref=e1325]: openrouter
+                - cell "google/gemini-2.5-flash-image" [ref=e1326]:
+                  - link "google/gemini-2.5-flash-image" [ref=e1327] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1328]
+                - cell "$2.50" [ref=e1329]
+                - cell "32.768K" [ref=e1330]
+              - row "openrouter thedrummer/cydonia-24b-v4.1 $0.300 $0.500 131.072K" [ref=e1331]:
+                - cell "openrouter" [ref=e1332]:
+                  - generic [ref=e1333]: openrouter
+                - cell "thedrummer/cydonia-24b-v4.1" [ref=e1334]:
+                  - link "thedrummer/cydonia-24b-v4.1" [ref=e1335] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1336]
+                - cell "$0.500" [ref=e1337]
+                - cell "131.072K" [ref=e1338]
+              - row "openrouter mistralai/codestral-2508 $0.300 $0.900 256K" [ref=e1339]:
+                - cell "openrouter" [ref=e1340]:
+                  - generic [ref=e1341]: openrouter
+                - cell "mistralai/codestral-2508" [ref=e1342]:
+                  - link "mistralai/codestral-2508" [ref=e1343] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1344]
+                - cell "$0.900" [ref=e1345]
+                - cell "256K" [ref=e1346]
+              - row "openrouter google/gemini-2.5-flash $0.300 $2.50 1,048.576K" [ref=e1347]:
+                - cell "openrouter" [ref=e1348]:
+                  - generic [ref=e1349]: openrouter
+                - cell "google/gemini-2.5-flash" [ref=e1350]:
+                  - link "google/gemini-2.5-flash" [ref=e1351] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1352]
+                - cell "$2.50" [ref=e1353]
+                - cell "1,048.576K" [ref=e1354]
+              - row "openrouter nousresearch/hermes-3-llama-3.1-70b $0.300 $0.300 131.072K" [ref=e1355]:
+                - cell "openrouter" [ref=e1356]:
+                  - generic [ref=e1357]: openrouter
+                - cell "nousresearch/hermes-3-llama-3.1-70b" [ref=e1358]:
+                  - link "nousresearch/hermes-3-llama-3.1-70b" [ref=e1359] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.300" [ref=e1360]
+                - cell "$0.300" [ref=e1361]
+                - cell "131.072K" [ref=e1362]
+              - row "openrouter qwen/qwen3.6-plus $0.325 $1.95 1,000K" [ref=e1363]:
+                - cell "openrouter" [ref=e1364]:
+                  - generic [ref=e1365]: openrouter
+                - cell "qwen/qwen3.6-plus" [ref=e1366]:
+                  - link "qwen/qwen3.6-plus" [ref=e1367] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.325" [ref=e1368]
+                - cell "$1.95" [ref=e1369]
+                - cell "1,000K" [ref=e1370]
+              - row "openrouter mistralai/mistral-small-3.1-24b-instruct $0.351 $0.555 128K" [ref=e1371]:
+                - cell "openrouter" [ref=e1372]:
+                  - generic [ref=e1373]: openrouter
+                - cell "mistralai/mistral-small-3.1-24b-instruct" [ref=e1374]:
+                  - link "mistralai/mistral-small-3.1-24b-instruct" [ref=e1375] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.351" [ref=e1376]
+                - cell "$0.555" [ref=e1377]
+                - cell "128K" [ref=e1378]
+              - row "openrouter qwen/qwen-2.5-72b-instruct $0.360 $0.400 131.072K" [ref=e1379]:
+                - cell "openrouter" [ref=e1380]:
+                  - generic [ref=e1381]: openrouter
+                - cell "qwen/qwen-2.5-72b-instruct" [ref=e1382]:
+                  - link "qwen/qwen-2.5-72b-instruct" [ref=e1383] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.360" [ref=e1384]
+                - cell "$0.400" [ref=e1385]
+                - cell "131.072K" [ref=e1386]
+              - row "openrouter qwen/qwen3.5-397b-a17b $0.390 $2.34 262.144K" [ref=e1387]:
+                - cell "openrouter" [ref=e1388]:
+                  - generic [ref=e1389]: openrouter
+                - cell "qwen/qwen3.5-397b-a17b" [ref=e1390]:
+                  - link "qwen/qwen3.5-397b-a17b" [ref=e1391] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.390" [ref=e1392]
+                - cell "$2.34" [ref=e1393]
+                - cell "262.144K" [ref=e1394]
+              - row "openrouter xiaomi/mimo-v2-omni $0.400 $2.00 262.144K" [ref=e1395]:
+                - cell "openrouter" [ref=e1396]:
+                  - generic [ref=e1397]: openrouter
+                - cell "xiaomi/mimo-v2-omni" [ref=e1398]:
+                  - link "xiaomi/mimo-v2-omni" [ref=e1399] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1400]
+                - cell "$2.00" [ref=e1401]
+                - cell "262.144K" [ref=e1402]
+              - row "openrouter moonshotai/kimi-k2.5 $0.400 $1.90 262.144K" [ref=e1403]:
+                - cell "openrouter" [ref=e1404]:
+                  - generic [ref=e1405]: openrouter
+                - cell "moonshotai/kimi-k2.5" [ref=e1406]:
+                  - link "moonshotai/kimi-k2.5" [ref=e1407] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1408]
+                - cell "$1.90" [ref=e1409]
+                - cell "262.144K" [ref=e1410]
+              - row "openrouter z-ai/glm-4.7 $0.400 $1.75 202.752K" [ref=e1411]:
+                - cell "openrouter" [ref=e1412]:
+                  - generic [ref=e1413]: openrouter
+                - cell "z-ai/glm-4.7" [ref=e1414]:
+                  - link "z-ai/glm-4.7" [ref=e1415] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1416]
+                - cell "$1.75" [ref=e1417]
+                - cell "202.752K" [ref=e1418]
+              - row "openrouter mistralai/devstral-2512 $0.400 $2.00 262.144K" [ref=e1419]:
+                - cell "openrouter" [ref=e1420]:
+                  - generic [ref=e1421]: openrouter
+                - cell "mistralai/devstral-2512" [ref=e1422]:
+                  - link "mistralai/devstral-2512" [ref=e1423] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1424]
+                - cell "$2.00" [ref=e1425]
+                - cell "262.144K" [ref=e1426]
+              - row "openrouter mistralai/mistral-medium-3.1 $0.400 $2.00 131.072K" [ref=e1427]:
+                - cell "openrouter" [ref=e1428]:
+                  - generic [ref=e1429]: openrouter
+                - cell "mistralai/mistral-medium-3.1" [ref=e1430]:
+                  - link "mistralai/mistral-medium-3.1" [ref=e1431] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1432]
+                - cell "$2.00" [ref=e1433]
+                - cell "131.072K" [ref=e1434]
+              - row "openrouter mistralai/devstral-medium $0.400 $2.00 131.072K" [ref=e1435]:
+                - cell "openrouter" [ref=e1436]:
+                  - generic [ref=e1437]: openrouter
+                - cell "mistralai/devstral-medium" [ref=e1438]:
+                  - link "mistralai/devstral-medium" [ref=e1439] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1440]
+                - cell "$2.00" [ref=e1441]
+                - cell "131.072K" [ref=e1442]
+              - row "openrouter minimax/minimax-m1 $0.400 $2.20 1,000K" [ref=e1443]:
+                - cell "openrouter" [ref=e1444]:
+                  - generic [ref=e1445]: openrouter
+                - cell "minimax/minimax-m1" [ref=e1446]:
+                  - link "minimax/minimax-m1" [ref=e1447] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1448]
+                - cell "$2.20" [ref=e1449]
+                - cell "1,000K" [ref=e1450]
+              - row "openrouter mistralai/mistral-medium-3 $0.400 $2.00 131.072K" [ref=e1451]:
+                - cell "openrouter" [ref=e1452]:
+                  - generic [ref=e1453]: openrouter
+                - cell "mistralai/mistral-medium-3" [ref=e1454]:
+                  - link "mistralai/mistral-medium-3" [ref=e1455] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1456]
+                - cell "$2.00" [ref=e1457]
+                - cell "131.072K" [ref=e1458]
+              - row "openrouter openai/gpt-4.1-mini $0.400 $1.60 1,047.576K" [ref=e1459]:
+                - cell "openrouter" [ref=e1460]:
+                  - generic [ref=e1461]: openrouter
+                - cell "openai/gpt-4.1-mini" [ref=e1462]:
+                  - link "openai/gpt-4.1-mini" [ref=e1463] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1464]
+                - cell "$1.60" [ref=e1465]
+                - cell "1,047.576K" [ref=e1466]
+              - row "openrouter thedrummer/unslopnemo-12b $0.400 $0.400 32.768K" [ref=e1467]:
+                - cell "openrouter" [ref=e1468]:
+                  - generic [ref=e1469]: openrouter
+                - cell "thedrummer/unslopnemo-12b" [ref=e1470]:
+                  - link "thedrummer/unslopnemo-12b" [ref=e1471] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1472]
+                - cell "$0.400" [ref=e1473]
+                - cell "32.768K" [ref=e1474]
+              - row "openrouter meta-llama/llama-3.1-70b-instruct $0.400 $0.400 131.072K" [ref=e1475]:
+                - cell "openrouter" [ref=e1476]:
+                  - generic [ref=e1477]: openrouter
+                - cell "meta-llama/llama-3.1-70b-instruct" [ref=e1478]:
+                  - link "meta-llama/llama-3.1-70b-instruct" [ref=e1479] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.400" [ref=e1480]
+                - cell "$0.400" [ref=e1481]
+                - cell "131.072K" [ref=e1482]
+              - row "openrouter baidu/ernie-4.5-vl-424b-a47b $0.420 $1.25 131.072K" [ref=e1483]:
+                - cell "openrouter" [ref=e1484]:
+                  - generic [ref=e1485]: openrouter
+                - cell "baidu/ernie-4.5-vl-424b-a47b" [ref=e1486]:
+                  - link "baidu/ernie-4.5-vl-424b-a47b" [ref=e1487] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.420" [ref=e1488]
+                - cell "$1.25" [ref=e1489]
+                - cell "131.072K" [ref=e1490]
+              - row "openrouter z-ai/glm-4.6 $0.430 $1.74 202.752K" [ref=e1491]:
+                - cell "openrouter" [ref=e1492]:
+                  - generic [ref=e1493]: openrouter
+                - cell "z-ai/glm-4.6" [ref=e1494]:
+                  - link "z-ai/glm-4.6" [ref=e1495] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.430" [ref=e1496]
+                - cell "$1.74" [ref=e1497]
+                - cell "202.752K" [ref=e1498]
+              - row "openrouter deepseek/deepseek-v4-pro $0.435 $0.870 1,048.576K" [ref=e1499]:
+                - cell "openrouter" [ref=e1500]:
+                  - generic [ref=e1501]: openrouter
+                - cell "deepseek/deepseek-v4-pro" [ref=e1502]:
+                  - link "deepseek/deepseek-v4-pro" [ref=e1503] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.435" [ref=e1504]
+                - cell "$0.870" [ref=e1505]
+                - cell "1,048.576K" [ref=e1506]
+              - row "openrouter xiaomi/mimo-v2.5-pro $0.435 $0.870 1,048.576K" [ref=e1507]:
+                - cell "openrouter" [ref=e1508]:
+                  - generic [ref=e1509]: openrouter
+                - cell "xiaomi/mimo-v2.5-pro" [ref=e1510]:
+                  - link "xiaomi/mimo-v2.5-pro" [ref=e1511] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.435" [ref=e1512]
+                - cell "$0.870" [ref=e1513]
+                - cell "1,048.576K" [ref=e1514]
+              - row "openrouter undi95/remm-slerp-l2-13b $0.450 $0.650 6.144K" [ref=e1515]:
+                - cell "openrouter" [ref=e1516]:
+                  - generic [ref=e1517]: openrouter
+                - cell "undi95/remm-slerp-l2-13b" [ref=e1518]:
+                  - link "undi95/remm-slerp-l2-13b" [ref=e1519] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.450" [ref=e1520]
+                - cell "$0.650" [ref=e1521]
+                - cell "6.144K" [ref=e1522]
+              - row "openrouter qwen/qwen3-235b-a22b $0.455 $1.82 131.072K" [ref=e1523]:
+                - cell "openrouter" [ref=e1524]:
+                  - generic [ref=e1525]: openrouter
+                - cell "qwen/qwen3-235b-a22b" [ref=e1526]:
+                  - link "qwen/qwen3-235b-a22b" [ref=e1527] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.455" [ref=e1528]
+                - cell "$1.82" [ref=e1529]
+                - cell "131.072K" [ref=e1530]
+              - row "openrouter meta-llama/llama-guard-3-8b $0.484 $0.030 131.072K" [ref=e1531]:
+                - cell "openrouter" [ref=e1532]:
+                  - generic [ref=e1533]: openrouter
+                - cell "meta-llama/llama-guard-3-8b" [ref=e1534]:
+                  - link "meta-llama/llama-guard-3-8b" [ref=e1535] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.484" [ref=e1536]
+                - cell "$0.030" [ref=e1537]
+                - cell "131.072K" [ref=e1538]
+              - row "openrouter google/gemini-3.1-flash-image-preview $0.500 $3.00 131.072K" [ref=e1539]:
+                - cell "openrouter" [ref=e1540]:
+                  - generic [ref=e1541]: openrouter
+                - cell "google/gemini-3.1-flash-image-preview" [ref=e1542]:
+                  - link "google/gemini-3.1-flash-image-preview" [ref=e1543] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.500" [ref=e1544]
+                - cell "$3.00" [ref=e1545]
+                - cell "131.072K" [ref=e1546]
+              - row "openrouter google/gemini-3-flash-preview $0.500 $3.00 1,048.576K" [ref=e1547]:
+                - cell "openrouter" [ref=e1548]:
+                  - generic [ref=e1549]: openrouter
+                - cell "google/gemini-3-flash-preview" [ref=e1550]:
+                  - link "google/gemini-3-flash-preview" [ref=e1551] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.500" [ref=e1552]
+                - cell "$3.00" [ref=e1553]
+                - cell "1,048.576K" [ref=e1554]
+              - row "openrouter mistralai/mistral-large-2512 $0.500 $1.50 262.144K" [ref=e1555]:
+                - cell "openrouter" [ref=e1556]:
+                  - generic [ref=e1557]: openrouter
+                - cell "mistralai/mistral-large-2512" [ref=e1558]:
+                  - link "mistralai/mistral-large-2512" [ref=e1559] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.500" [ref=e1560]
+                - cell "$1.50" [ref=e1561]
+                - cell "262.144K" [ref=e1562]
+              - row "openrouter deepseek/deepseek-r1-0528 $0.500 $2.15 163.84K" [ref=e1563]:
+                - cell "openrouter" [ref=e1564]:
+                  - generic [ref=e1565]: openrouter
+                - cell "deepseek/deepseek-r1-0528" [ref=e1566]:
+                  - link "deepseek/deepseek-r1-0528" [ref=e1567] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.500" [ref=e1568]
+                - cell "$2.15" [ref=e1569]
+                - cell "163.84K" [ref=e1570]
+              - row "openrouter arcee-ai/coder-large $0.500 $0.800 32.768K" [ref=e1571]:
+                - cell "openrouter" [ref=e1572]:
+                  - generic [ref=e1573]: openrouter
+                - cell "arcee-ai/coder-large" [ref=e1574]:
+                  - link "arcee-ai/coder-large" [ref=e1575] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.500" [ref=e1576]
+                - cell "$0.800" [ref=e1577]
+                - cell "32.768K" [ref=e1578]
+              - row "openrouter openai/gpt-3.5-turbo $0.500 $1.50 16.385K" [ref=e1579]:
+                - cell "openrouter" [ref=e1580]:
+                  - generic [ref=e1581]: openrouter
+                - cell "openai/gpt-3.5-turbo" [ref=e1582]:
+                  - link "openai/gpt-3.5-turbo" [ref=e1583] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.500" [ref=e1584]
+                - cell "$1.50" [ref=e1585]
+                - cell "16.385K" [ref=e1586]
+              - row "openrouter meta-llama/llama-3-70b-instruct $0.510 $0.740 8.192K" [ref=e1587]:
+                - cell "openrouter" [ref=e1588]:
+                  - generic [ref=e1589]: openrouter
+                - cell "meta-llama/llama-3-70b-instruct" [ref=e1590]:
+                  - link "meta-llama/llama-3-70b-instruct" [ref=e1591] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.510" [ref=e1592]
+                - cell "$0.740" [ref=e1593]
+                - cell "8.192K" [ref=e1594]
+              - row "openrouter thedrummer/skyfall-36b-v2 $0.550 $0.800 32.768K" [ref=e1595]:
+                - cell "openrouter" [ref=e1596]:
+                  - generic [ref=e1597]: openrouter
+                - cell "thedrummer/skyfall-36b-v2" [ref=e1598]:
+                  - link "thedrummer/skyfall-36b-v2" [ref=e1599] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.550" [ref=e1600]
+                - cell "$0.800" [ref=e1601]
+                - cell "32.768K" [ref=e1602]
+              - row "openrouter moonshotai/kimi-k2 $0.570 $2.30 131.072K" [ref=e1603]:
+                - cell "openrouter" [ref=e1604]:
+                  - generic [ref=e1605]: openrouter
+                - cell "moonshotai/kimi-k2" [ref=e1606]:
+                  - link "moonshotai/kimi-k2" [ref=e1607] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.570" [ref=e1608]
+                - cell "$2.30" [ref=e1609]
+                - cell "131.072K" [ref=e1610]
+              - row "openrouter z-ai/glm-5 $0.600 $1.92 202.752K" [ref=e1611]:
+                - cell "openrouter" [ref=e1612]:
+                  - generic [ref=e1613]: openrouter
+                - cell "z-ai/glm-5" [ref=e1614]:
+                  - link "z-ai/glm-5" [ref=e1615] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1616]
+                - cell "$1.92" [ref=e1617]
+                - cell "202.752K" [ref=e1618]
+              - row "openrouter writer/palmyra-x5 $0.600 $6.00 1,040K" [ref=e1619]:
+                - cell "openrouter" [ref=e1620]:
+                  - generic [ref=e1621]: openrouter
+                - cell "writer/palmyra-x5" [ref=e1622]:
+                  - link "writer/palmyra-x5" [ref=e1623] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1624]
+                - cell "$6.00" [ref=e1625]
+                - cell "1,040K" [ref=e1626]
+              - row "openrouter openai/gpt-audio-mini $0.600 $2.40 128K" [ref=e1627]:
+                - cell "openrouter" [ref=e1628]:
+                  - generic [ref=e1629]: openrouter
+                - cell "openai/gpt-audio-mini" [ref=e1630]:
+                  - link "openai/gpt-audio-mini" [ref=e1631] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1632]
+                - cell "$2.40" [ref=e1633]
+                - cell "128K" [ref=e1634]
+              - row "openrouter moonshotai/kimi-k2-thinking $0.600 $2.50 262.144K" [ref=e1635]:
+                - cell "openrouter" [ref=e1636]:
+                  - generic [ref=e1637]: openrouter
+                - cell "moonshotai/kimi-k2-thinking" [ref=e1638]:
+                  - link "moonshotai/kimi-k2-thinking" [ref=e1639] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1640]
+                - cell "$2.50" [ref=e1641]
+                - cell "262.144K" [ref=e1642]
+              - row "openrouter moonshotai/kimi-k2-0905 $0.600 $2.50 262.144K" [ref=e1643]:
+                - cell "openrouter" [ref=e1644]:
+                  - generic [ref=e1645]: openrouter
+                - cell "moonshotai/kimi-k2-0905" [ref=e1646]:
+                  - link "moonshotai/kimi-k2-0905" [ref=e1647] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1648]
+                - cell "$2.50" [ref=e1649]
+                - cell "262.144K" [ref=e1650]
+              - row "openrouter z-ai/glm-4.5v $0.600 $1.80 65.536K" [ref=e1651]:
+                - cell "openrouter" [ref=e1652]:
+                  - generic [ref=e1653]: openrouter
+                - cell "z-ai/glm-4.5v" [ref=e1654]:
+                  - link "z-ai/glm-4.5v" [ref=e1655] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1656]
+                - cell "$1.80" [ref=e1657]
+                - cell "65.536K" [ref=e1658]
+              - row "openrouter z-ai/glm-4.5 $0.600 $2.20 131.072K" [ref=e1659]:
+                - cell "openrouter" [ref=e1660]:
+                  - generic [ref=e1661]: openrouter
+                - cell "z-ai/glm-4.5" [ref=e1662]:
+                  - link "z-ai/glm-4.5" [ref=e1663] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.600" [ref=e1664]
+                - cell "$2.20" [ref=e1665]
+                - cell "131.072K" [ref=e1666]
+              - row "openrouter microsoft/wizardlm-2-8x22b $0.620 $0.620 65.536K" [ref=e1667]:
+                - cell "openrouter" [ref=e1668]:
+                  - generic [ref=e1669]: openrouter
+                - cell "microsoft/wizardlm-2-8x22b" [ref=e1670]:
+                  - link "microsoft/wizardlm-2-8x22b" [ref=e1671] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.620" [ref=e1672]
+                - cell "$0.620" [ref=e1673]
+                - cell "65.536K" [ref=e1674]
+              - row "openrouter qwen/qwen3-coder-plus $0.650 $3.25 1,000K" [ref=e1675]:
+                - cell "openrouter" [ref=e1676]:
+                  - generic [ref=e1677]: openrouter
+                - cell "qwen/qwen3-coder-plus" [ref=e1678]:
+                  - link "qwen/qwen3-coder-plus" [ref=e1679] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.650" [ref=e1680]
+                - cell "$3.25" [ref=e1681]
+                - cell "1,000K" [ref=e1682]
+              - row "openrouter sao10k/l3.3-euryale-70b $0.650 $0.750 131.072K" [ref=e1683]:
+                - cell "openrouter" [ref=e1684]:
+                  - generic [ref=e1685]: openrouter
+                - cell "sao10k/l3.3-euryale-70b" [ref=e1686]:
+                  - link "sao10k/l3.3-euryale-70b" [ref=e1687] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.650" [ref=e1688]
+                - cell "$0.750" [ref=e1689]
+                - cell "131.072K" [ref=e1690]
+              - row "openrouter google/gemma-2-27b-it $0.650 $0.650 8.192K" [ref=e1691]:
+                - cell "openrouter" [ref=e1692]:
+                  - generic [ref=e1693]: openrouter
+                - cell "google/gemma-2-27b-it" [ref=e1694]:
+                  - link "google/gemma-2-27b-it" [ref=e1695] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.650" [ref=e1696]
+                - cell "$0.650" [ref=e1697]
+                - cell "8.192K" [ref=e1698]
+              - row "openrouter qwen/qwen-2.5-coder-32b-instruct $0.660 $1.00 128K" [ref=e1699]:
+                - cell "openrouter" [ref=e1700]:
+                  - generic [ref=e1701]: openrouter
+                - cell "qwen/qwen-2.5-coder-32b-instruct" [ref=e1702]:
+                  - link "qwen/qwen-2.5-coder-32b-instruct" [ref=e1703] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.660" [ref=e1704]
+                - cell "$1.00" [ref=e1705]
+                - cell "128K" [ref=e1706]
+              - row "openrouter aion-labs/aion-1.0-mini $0.700 $1.40 131.072K" [ref=e1707]:
+                - cell "openrouter" [ref=e1708]:
+                  - generic [ref=e1709]: openrouter
+                - cell "aion-labs/aion-1.0-mini" [ref=e1710]:
+                  - link "aion-labs/aion-1.0-mini" [ref=e1711] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.700" [ref=e1712]
+                - cell "$1.40" [ref=e1713]
+                - cell "131.072K" [ref=e1714]
+              - row "openrouter deepseek/deepseek-r1-distill-llama-70b $0.700 $0.800 131.072K" [ref=e1715]:
+                - cell "openrouter" [ref=e1716]:
+                  - generic [ref=e1717]: openrouter
+                - cell "deepseek/deepseek-r1-distill-llama-70b" [ref=e1718]:
+                  - link "deepseek/deepseek-r1-distill-llama-70b" [ref=e1719] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.700" [ref=e1720]
+                - cell "$0.800" [ref=e1721]
+                - cell "131.072K" [ref=e1722]
+              - row "openrouter deepseek/deepseek-r1 $0.700 $2.50 163.84K" [ref=e1723]:
+                - cell "openrouter" [ref=e1724]:
+                  - generic [ref=e1725]: openrouter
+                - cell "deepseek/deepseek-r1" [ref=e1726]:
+                  - link "deepseek/deepseek-r1" [ref=e1727] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.700" [ref=e1728]
+                - cell "$2.50" [ref=e1729]
+                - cell "163.84K" [ref=e1730]
+              - row "openrouter ~moonshotai/kimi-latest $0.730 $3.49 262.144K" [ref=e1731]:
+                - cell "openrouter" [ref=e1732]:
+                  - generic [ref=e1733]: openrouter
+                - cell "~moonshotai/kimi-latest" [ref=e1734]:
+                  - link "~moonshotai/kimi-latest" [ref=e1735] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.730" [ref=e1736]
+                - cell "$3.49" [ref=e1737]
+                - cell "262.144K" [ref=e1738]
+              - row "openrouter moonshotai/kimi-k2.6 $0.730 $3.49 262.144K" [ref=e1739]:
+                - cell "openrouter" [ref=e1740]:
+                  - generic [ref=e1741]: openrouter
+                - cell "moonshotai/kimi-k2.6" [ref=e1742]:
+                  - link "moonshotai/kimi-k2.6" [ref=e1743] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.730" [ref=e1744]
+                - cell "$3.49" [ref=e1745]
+                - cell "262.144K" [ref=e1746]
+              - row "openrouter ~openai/gpt-mini-latest $0.750 $4.50 400K" [ref=e1747]:
+                - cell "openrouter" [ref=e1748]:
+                  - generic [ref=e1749]: openrouter
+                - cell "~openai/gpt-mini-latest" [ref=e1750]:
+                  - link "~openai/gpt-mini-latest" [ref=e1751] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.750" [ref=e1752]
+                - cell "$4.50" [ref=e1753]
+                - cell "400K" [ref=e1754]
+              - row "openrouter openai/gpt-5.4-mini $0.750 $4.50 400K" [ref=e1755]:
+                - cell "openrouter" [ref=e1756]:
+                  - generic [ref=e1757]: openrouter
+                - cell "openai/gpt-5.4-mini" [ref=e1758]:
+                  - link "openai/gpt-5.4-mini" [ref=e1759] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.750" [ref=e1760]
+                - cell "$4.50" [ref=e1761]
+                - cell "400K" [ref=e1762]
+              - row "openrouter arcee-ai/virtuoso-large $0.750 $1.20 131.072K" [ref=e1763]:
+                - cell "openrouter" [ref=e1764]:
+                  - generic [ref=e1765]: openrouter
+                - cell "arcee-ai/virtuoso-large" [ref=e1766]:
+                  - link "arcee-ai/virtuoso-large" [ref=e1767] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.750" [ref=e1768]
+                - cell "$1.20" [ref=e1769]
+                - cell "131.072K" [ref=e1770]
+              - row "openrouter mancer/weaver $0.750 $1.00 8K" [ref=e1771]:
+                - cell "openrouter" [ref=e1772]:
+                  - generic [ref=e1773]: openrouter
+                - cell "mancer/weaver" [ref=e1774]:
+                  - link "mancer/weaver" [ref=e1775] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.750" [ref=e1776]
+                - cell "$1.00" [ref=e1777]
+                - cell "8K" [ref=e1778]
+              - row "openrouter qwen/qwen3-max-thinking $0.780 $3.90 262.144K" [ref=e1779]:
+                - cell "openrouter" [ref=e1780]:
+                  - generic [ref=e1781]: openrouter
+                - cell "qwen/qwen3-max-thinking" [ref=e1782]:
+                  - link "qwen/qwen3-max-thinking" [ref=e1783] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.780" [ref=e1784]
+                - cell "$3.90" [ref=e1785]
+                - cell "262.144K" [ref=e1786]
+              - row "openrouter qwen/qwen3-max $0.780 $3.90 262.144K" [ref=e1787]:
+                - cell "openrouter" [ref=e1788]:
+                  - generic [ref=e1789]: openrouter
+                - cell "qwen/qwen3-max" [ref=e1790]:
+                  - link "qwen/qwen3-max" [ref=e1791] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.780" [ref=e1792]
+                - cell "$3.90" [ref=e1793]
+                - cell "262.144K" [ref=e1794]
+              - row "openrouter aion-labs/aion-2.0 $0.800 $1.60 131.072K" [ref=e1795]:
+                - cell "openrouter" [ref=e1796]:
+                  - generic [ref=e1797]: openrouter
+                - cell "aion-labs/aion-2.0" [ref=e1798]:
+                  - link "aion-labs/aion-2.0" [ref=e1799] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.800" [ref=e1800]
+                - cell "$1.60" [ref=e1801]
+                - cell "131.072K" [ref=e1802]
+              - row "openrouter morph/morph-v3-fast $0.800 $1.20 81.92K" [ref=e1803]:
+                - cell "openrouter" [ref=e1804]:
+                  - generic [ref=e1805]: openrouter
+                - cell "morph/morph-v3-fast" [ref=e1806]:
+                  - link "morph/morph-v3-fast" [ref=e1807] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.800" [ref=e1808]
+                - cell "$1.20" [ref=e1809]
+                - cell "81.92K" [ref=e1810]
+              - row "openrouter alfredpros/codellama-7b-instruct-solidity $0.800 $1.20 4.096K" [ref=e1811]:
+                - cell "openrouter" [ref=e1812]:
+                  - generic [ref=e1813]: openrouter
+                - cell "alfredpros/codellama-7b-instruct-solidity" [ref=e1814]:
+                  - link "alfredpros/codellama-7b-instruct-solidity" [ref=e1815] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.800" [ref=e1816]
+                - cell "$1.20" [ref=e1817]
+                - cell "4.096K" [ref=e1818]
+              - row "openrouter aion-labs/aion-rp-llama-3.1-8b $0.800 $1.60 32.768K" [ref=e1819]:
+                - cell "openrouter" [ref=e1820]:
+                  - generic [ref=e1821]: openrouter
+                - cell "aion-labs/aion-rp-llama-3.1-8b" [ref=e1822]:
+                  - link "aion-labs/aion-rp-llama-3.1-8b" [ref=e1823] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.800" [ref=e1824]
+                - cell "$1.60" [ref=e1825]
+                - cell "32.768K" [ref=e1826]
+              - row "openrouter amazon/nova-pro-v1 $0.800 $3.20 300K" [ref=e1827]:
+                - cell "openrouter" [ref=e1828]:
+                  - generic [ref=e1829]: openrouter
+                - cell "amazon/nova-pro-v1" [ref=e1830]:
+                  - link "amazon/nova-pro-v1" [ref=e1831] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.800" [ref=e1832]
+                - cell "$3.20" [ref=e1833]
+                - cell "300K" [ref=e1834]
+              - row "openrouter anthropic/claude-3.5-haiku $0.800 $4.00 200K" [ref=e1835]:
+                - cell "openrouter" [ref=e1836]:
+                  - generic [ref=e1837]: openrouter
+                - cell "anthropic/claude-3.5-haiku" [ref=e1838]:
+                  - link "anthropic/claude-3.5-haiku" [ref=e1839] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.800" [ref=e1840]
+                - cell "$4.00" [ref=e1841]
+                - cell "200K" [ref=e1842]
+              - row "openrouter relace/relace-apply-3 $0.850 $1.25 256K" [ref=e1843]:
+                - cell "openrouter" [ref=e1844]:
+                  - generic [ref=e1845]: openrouter
+                - cell "relace/relace-apply-3" [ref=e1846]:
+                  - link "relace/relace-apply-3" [ref=e1847] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.850" [ref=e1848]
+                - cell "$1.25" [ref=e1849]
+                - cell "256K" [ref=e1850]
+              - row "openrouter switchpoint/router $0.850 $3.40 131.072K" [ref=e1851]:
+                - cell "openrouter" [ref=e1852]:
+                  - generic [ref=e1853]: openrouter
+                - cell "switchpoint/router" [ref=e1854]:
+                  - link "switchpoint/router" [ref=e1855] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.850" [ref=e1856]
+                - cell "$3.40" [ref=e1857]
+                - cell "131.072K" [ref=e1858]
+              - row "openrouter sao10k/l3.1-euryale-70b $0.850 $0.850 131.072K" [ref=e1859]:
+                - cell "openrouter" [ref=e1860]:
+                  - generic [ref=e1861]: openrouter
+                - cell "sao10k/l3.1-euryale-70b" [ref=e1862]:
+                  - link "sao10k/l3.1-euryale-70b" [ref=e1863] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.850" [ref=e1864]
+                - cell "$0.850" [ref=e1865]
+                - cell "131.072K" [ref=e1866]
+              - row "openrouter morph/morph-v3-large $0.900 $1.90 262.144K" [ref=e1867]:
+                - cell "openrouter" [ref=e1868]:
+                  - generic [ref=e1869]: openrouter
+                - cell "morph/morph-v3-large" [ref=e1870]:
+                  - link "morph/morph-v3-large" [ref=e1871] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.900" [ref=e1872]
+                - cell "$1.90" [ref=e1873]
+                - cell "262.144K" [ref=e1874]
+              - row "openrouter arcee-ai/maestro-reasoning $0.900 $3.30 131.072K" [ref=e1875]:
+                - cell "openrouter" [ref=e1876]:
+                  - generic [ref=e1877]: openrouter
+                - cell "arcee-ai/maestro-reasoning" [ref=e1878]:
+                  - link "arcee-ai/maestro-reasoning" [ref=e1879] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.900" [ref=e1880]
+                - cell "$3.30" [ref=e1881]
+                - cell "131.072K" [ref=e1882]
+              - row "openrouter z-ai/glm-5.1 $0.980 $3.08 202.752K" [ref=e1883]:
+                - cell "openrouter" [ref=e1884]:
+                  - generic [ref=e1885]: openrouter
+                - cell "z-ai/glm-5.1" [ref=e1886]:
+                  - link "z-ai/glm-5.1" [ref=e1887] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$0.980" [ref=e1888]
+                - cell "$3.08" [ref=e1889]
+                - cell "202.752K" [ref=e1890]
+              - row "deepseek PRICING $1.00 $0.00280 —" [ref=e1891]:
+                - cell "deepseek" [ref=e1892]:
+                  - generic [ref=e1893]: deepseek
+                - cell "PRICING" [ref=e1894]:
+                  - link "PRICING" [ref=e1895] [cursor=pointer]:
+                    - /url: https://api-docs.deepseek.com/quick_start/pricing
+                - cell "$1.00" [ref=e1896]
+                - cell "$0.00280" [ref=e1897]
+                - cell "—" [ref=e1898]
+              - row "openrouter x-ai/grok-build-0.1 $1.00 $2.00 256K" [ref=e1899]:
+                - cell "openrouter" [ref=e1900]:
+                  - generic [ref=e1901]: openrouter
+                - cell "x-ai/grok-build-0.1" [ref=e1902]:
+                  - link "x-ai/grok-build-0.1" [ref=e1903] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1904]
+                - cell "$2.00" [ref=e1905]
+                - cell "256K" [ref=e1906]
+              - row "openrouter ~anthropic/claude-haiku-latest $1.00 $5.00 200K" [ref=e1907]:
+                - cell "openrouter" [ref=e1908]:
+                  - generic [ref=e1909]: openrouter
+                - cell "~anthropic/claude-haiku-latest" [ref=e1910]:
+                  - link "~anthropic/claude-haiku-latest" [ref=e1911] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1912]
+                - cell "$5.00" [ref=e1913]
+                - cell "200K" [ref=e1914]
+              - row "openrouter xiaomi/mimo-v2-pro $1.00 $3.00 1,048.576K" [ref=e1915]:
+                - cell "openrouter" [ref=e1916]:
+                  - generic [ref=e1917]: openrouter
+                - cell "xiaomi/mimo-v2-pro" [ref=e1918]:
+                  - link "xiaomi/mimo-v2-pro" [ref=e1919] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1920]
+                - cell "$3.00" [ref=e1921]
+                - cell "1,048.576K" [ref=e1922]
+              - row "openrouter relace/relace-search $1.00 $3.00 256K" [ref=e1923]:
+                - cell "openrouter" [ref=e1924]:
+                  - generic [ref=e1925]: openrouter
+                - cell "relace/relace-search" [ref=e1926]:
+                  - link "relace/relace-search" [ref=e1927] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1928]
+                - cell "$3.00" [ref=e1929]
+                - cell "256K" [ref=e1930]
+              - row "openrouter anthropic/claude-haiku-4.5 $1.00 $5.00 200K" [ref=e1931]:
+                - cell "openrouter" [ref=e1932]:
+                  - generic [ref=e1933]: openrouter
+                - cell "anthropic/claude-haiku-4.5" [ref=e1934]:
+                  - link "anthropic/claude-haiku-4.5" [ref=e1935] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1936]
+                - cell "$5.00" [ref=e1937]
+                - cell "200K" [ref=e1938]
+              - row "openrouter nousresearch/hermes-4-405b $1.00 $3.00 131.072K" [ref=e1939]:
+                - cell "openrouter" [ref=e1940]:
+                  - generic [ref=e1941]: openrouter
+                - cell "nousresearch/hermes-4-405b" [ref=e1942]:
+                  - link "nousresearch/hermes-4-405b" [ref=e1943] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1944]
+                - cell "$3.00" [ref=e1945]
+                - cell "131.072K" [ref=e1946]
+              - row "openrouter perplexity/sonar $1.00 $1.00 127.072K" [ref=e1947]:
+                - cell "openrouter" [ref=e1948]:
+                  - generic [ref=e1949]: openrouter
+                - cell "perplexity/sonar" [ref=e1950]:
+                  - link "perplexity/sonar" [ref=e1951] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1952]
+                - cell "$1.00" [ref=e1953]
+                - cell "127.072K" [ref=e1954]
+              - row "openrouter nousresearch/hermes-3-llama-3.1-405b $1.00 $1.00 131.072K" [ref=e1955]:
+                - cell "openrouter" [ref=e1956]:
+                  - generic [ref=e1957]: openrouter
+                - cell "nousresearch/hermes-3-llama-3.1-405b" [ref=e1958]:
+                  - link "nousresearch/hermes-3-llama-3.1-405b" [ref=e1959] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1960]
+                - cell "$1.00" [ref=e1961]
+                - cell "131.072K" [ref=e1962]
+              - row "openrouter openai/gpt-3.5-turbo-0613 $1.00 $2.00 4.095K" [ref=e1963]:
+                - cell "openrouter" [ref=e1964]:
+                  - generic [ref=e1965]: openrouter
+                - cell "openai/gpt-3.5-turbo-0613" [ref=e1966]:
+                  - link "openai/gpt-3.5-turbo-0613" [ref=e1967] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.00" [ref=e1968]
+                - cell "$2.00" [ref=e1969]
+                - cell "4.095K" [ref=e1970]
+              - row "openrouter qwen/qwen3.6-max-preview $1.04 $6.24 262.144K" [ref=e1971]:
+                - cell "openrouter" [ref=e1972]:
+                  - generic [ref=e1973]: openrouter
+                - cell "qwen/qwen3.6-max-preview" [ref=e1974]:
+                  - link "qwen/qwen3.6-max-preview" [ref=e1975] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.04" [ref=e1976]
+                - cell "$6.24" [ref=e1977]
+                - cell "262.144K" [ref=e1978]
+              - row "openrouter openai/o4-mini-high $1.10 $4.40 200K" [ref=e1979]:
+                - cell "openrouter" [ref=e1980]:
+                  - generic [ref=e1981]: openrouter
+                - cell "openai/o4-mini-high" [ref=e1982]:
+                  - link "openai/o4-mini-high" [ref=e1983] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.10" [ref=e1984]
+                - cell "$4.40" [ref=e1985]
+                - cell "200K" [ref=e1986]
+              - row "openrouter openai/o4-mini $1.10 $4.40 200K" [ref=e1987]:
+                - cell "openrouter" [ref=e1988]:
+                  - generic [ref=e1989]: openrouter
+                - cell "openai/o4-mini" [ref=e1990]:
+                  - link "openai/o4-mini" [ref=e1991] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.10" [ref=e1992]
+                - cell "$4.40" [ref=e1993]
+                - cell "200K" [ref=e1994]
+              - row "openrouter openai/o3-mini-high $1.10 $4.40 200K" [ref=e1995]:
+                - cell "openrouter" [ref=e1996]:
+                  - generic [ref=e1997]: openrouter
+                - cell "openai/o3-mini-high" [ref=e1998]:
+                  - link "openai/o3-mini-high" [ref=e1999] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.10" [ref=e2000]
+                - cell "$4.40" [ref=e2001]
+                - cell "200K" [ref=e2002]
+              - row "openrouter openai/o3-mini $1.10 $4.40 200K" [ref=e2003]:
+                - cell "openrouter" [ref=e2004]:
+                  - generic [ref=e2005]: openrouter
+                - cell "openai/o3-mini" [ref=e2006]:
+                  - link "openai/o3-mini" [ref=e2007] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.10" [ref=e2008]
+                - cell "$4.40" [ref=e2009]
+                - cell "200K" [ref=e2010]
+              - row "openrouter z-ai/glm-5v-turbo $1.20 $4.00 202.752K" [ref=e2011]:
+                - cell "openrouter" [ref=e2012]:
+                  - generic [ref=e2013]: openrouter
+                - cell "z-ai/glm-5v-turbo" [ref=e2014]:
+                  - link "z-ai/glm-5v-turbo" [ref=e2015] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.20" [ref=e2016]
+                - cell "$4.00" [ref=e2017]
+                - cell "202.752K" [ref=e2018]
+              - row "openrouter z-ai/glm-5-turbo $1.20 $4.00 202.752K" [ref=e2019]:
+                - cell "openrouter" [ref=e2020]:
+                  - generic [ref=e2021]: openrouter
+                - cell "z-ai/glm-5-turbo" [ref=e2022]:
+                  - link "z-ai/glm-5-turbo" [ref=e2023] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.20" [ref=e2024]
+                - cell "$4.00" [ref=e2025]
+                - cell "202.752K" [ref=e2026]
+              - row "openrouter qwen/qwen3.7-max $1.25 $3.75 1,000K" [ref=e2027]:
+                - cell "openrouter" [ref=e2028]:
+                  - generic [ref=e2029]: openrouter
+                - cell "qwen/qwen3.7-max" [ref=e2030]:
+                  - link "qwen/qwen3.7-max" [ref=e2031] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2032]
+                - cell "$3.75" [ref=e2033]
+                - cell "1,000K" [ref=e2034]
+              - row "openrouter x-ai/grok-4.3 $1.25 $2.50 1,000K" [ref=e2035]:
+                - cell "openrouter" [ref=e2036]:
+                  - generic [ref=e2037]: openrouter
+                - cell "x-ai/grok-4.3" [ref=e2038]:
+                  - link "x-ai/grok-4.3" [ref=e2039] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2040]
+                - cell "$2.50" [ref=e2041]
+                - cell "1,000K" [ref=e2042]
+              - row "openrouter x-ai/grok-4.20 $1.25 $2.50 2,000K" [ref=e2043]:
+                - cell "openrouter" [ref=e2044]:
+                  - generic [ref=e2045]: openrouter
+                - cell "x-ai/grok-4.20" [ref=e2046]:
+                  - link "x-ai/grok-4.20" [ref=e2047] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2048]
+                - cell "$2.50" [ref=e2049]
+                - cell "2,000K" [ref=e2050]
+              - row "openrouter openai/gpt-5.1-codex-max $1.25 $10.00 400K" [ref=e2051]:
+                - cell "openrouter" [ref=e2052]:
+                  - generic [ref=e2053]: openrouter
+                - cell "openai/gpt-5.1-codex-max" [ref=e2054]:
+                  - link "openai/gpt-5.1-codex-max" [ref=e2055] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2056]
+                - cell "$10.00" [ref=e2057]
+                - cell "400K" [ref=e2058]
+              - row "openrouter deepcogito/cogito-v2.1-671b $1.25 $1.25 128K" [ref=e2059]:
+                - cell "openrouter" [ref=e2060]:
+                  - generic [ref=e2061]: openrouter
+                - cell "deepcogito/cogito-v2.1-671b" [ref=e2062]:
+                  - link "deepcogito/cogito-v2.1-671b" [ref=e2063] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2064]
+                - cell "$1.25" [ref=e2065]
+                - cell "128K" [ref=e2066]
+              - row "openrouter openai/gpt-5.1 $1.25 $10.00 400K" [ref=e2067]:
+                - cell "openrouter" [ref=e2068]:
+                  - generic [ref=e2069]: openrouter
+                - cell "openai/gpt-5.1" [ref=e2070]:
+                  - link "openai/gpt-5.1" [ref=e2071] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2072]
+                - cell "$10.00" [ref=e2073]
+                - cell "400K" [ref=e2074]
+              - row "openrouter openai/gpt-5.1-chat $1.25 $10.00 128K" [ref=e2075]:
+                - cell "openrouter" [ref=e2076]:
+                  - generic [ref=e2077]: openrouter
+                - cell "openai/gpt-5.1-chat" [ref=e2078]:
+                  - link "openai/gpt-5.1-chat" [ref=e2079] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2080]
+                - cell "$10.00" [ref=e2081]
+                - cell "128K" [ref=e2082]
+              - row "openrouter openai/gpt-5.1-codex $1.25 $10.00 400K" [ref=e2083]:
+                - cell "openrouter" [ref=e2084]:
+                  - generic [ref=e2085]: openrouter
+                - cell "openai/gpt-5.1-codex" [ref=e2086]:
+                  - link "openai/gpt-5.1-codex" [ref=e2087] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2088]
+                - cell "$10.00" [ref=e2089]
+                - cell "400K" [ref=e2090]
+              - row "openrouter openai/gpt-5-codex $1.25 $10.00 400K" [ref=e2091]:
+                - cell "openrouter" [ref=e2092]:
+                  - generic [ref=e2093]: openrouter
+                - cell "openai/gpt-5-codex" [ref=e2094]:
+                  - link "openai/gpt-5-codex" [ref=e2095] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2096]
+                - cell "$10.00" [ref=e2097]
+                - cell "400K" [ref=e2098]
+              - row "openrouter openai/gpt-5-chat $1.25 $10.00 128K" [ref=e2099]:
+                - cell "openrouter" [ref=e2100]:
+                  - generic [ref=e2101]: openrouter
+                - cell "openai/gpt-5-chat" [ref=e2102]:
+                  - link "openai/gpt-5-chat" [ref=e2103] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2104]
+                - cell "$10.00" [ref=e2105]
+                - cell "128K" [ref=e2106]
+              - row "openrouter openai/gpt-5 $1.25 $10.00 400K" [ref=e2107]:
+                - cell "openrouter" [ref=e2108]:
+                  - generic [ref=e2109]: openrouter
+                - cell "openai/gpt-5" [ref=e2110]:
+                  - link "openai/gpt-5" [ref=e2111] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2112]
+                - cell "$10.00" [ref=e2113]
+                - cell "400K" [ref=e2114]
+              - row "openrouter google/gemini-2.5-pro $1.25 $10.00 1,048.576K" [ref=e2115]:
+                - cell "openrouter" [ref=e2116]:
+                  - generic [ref=e2117]: openrouter
+                - cell "google/gemini-2.5-pro" [ref=e2118]:
+                  - link "google/gemini-2.5-pro" [ref=e2119] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2120]
+                - cell "$10.00" [ref=e2121]
+                - cell "1,048.576K" [ref=e2122]
+              - row "openrouter google/gemini-2.5-pro-preview $1.25 $10.00 1,048.576K" [ref=e2123]:
+                - cell "openrouter" [ref=e2124]:
+                  - generic [ref=e2125]: openrouter
+                - cell "google/gemini-2.5-pro-preview" [ref=e2126]:
+                  - link "google/gemini-2.5-pro-preview" [ref=e2127] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2128]
+                - cell "$10.00" [ref=e2129]
+                - cell "1,048.576K" [ref=e2130]
+              - row "openrouter google/gemini-2.5-pro-preview-05-06 $1.25 $10.00 1,048.576K" [ref=e2131]:
+                - cell "openrouter" [ref=e2132]:
+                  - generic [ref=e2133]: openrouter
+                - cell "google/gemini-2.5-pro-preview-05-06" [ref=e2134]:
+                  - link "google/gemini-2.5-pro-preview-05-06" [ref=e2135] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.25" [ref=e2136]
+                - cell "$10.00" [ref=e2137]
+                - cell "1,048.576K" [ref=e2138]
+              - row "openrouter sao10k/l3-euryale-70b $1.48 $1.48 8.192K" [ref=e2139]:
+                - cell "openrouter" [ref=e2140]:
+                  - generic [ref=e2141]: openrouter
+                - cell "sao10k/l3-euryale-70b" [ref=e2142]:
+                  - link "sao10k/l3-euryale-70b" [ref=e2143] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.48" [ref=e2144]
+                - cell "$1.48" [ref=e2145]
+                - cell "8.192K" [ref=e2146]
+              - row "openrouter google/gemini-3.5-flash $1.50 $9.00 1,048.576K" [ref=e2147]:
+                - cell "openrouter" [ref=e2148]:
+                  - generic [ref=e2149]: openrouter
+                - cell "google/gemini-3.5-flash" [ref=e2150]:
+                  - link "google/gemini-3.5-flash" [ref=e2151] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.50" [ref=e2152]
+                - cell "$9.00" [ref=e2153]
+                - cell "1,048.576K" [ref=e2154]
+              - row "openrouter mistralai/mistral-medium-3-5 $1.50 $7.50 262.144K" [ref=e2155]:
+                - cell "openrouter" [ref=e2156]:
+                  - generic [ref=e2157]: openrouter
+                - cell "mistralai/mistral-medium-3-5" [ref=e2158]:
+                  - link "mistralai/mistral-medium-3-5" [ref=e2159] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.50" [ref=e2160]
+                - cell "$7.50" [ref=e2161]
+                - cell "262.144K" [ref=e2162]
+              - row "openrouter ~google/gemini-flash-latest $1.50 $9.00 1,048.576K" [ref=e2163]:
+                - cell "openrouter" [ref=e2164]:
+                  - generic [ref=e2165]: openrouter
+                - cell "~google/gemini-flash-latest" [ref=e2166]:
+                  - link "~google/gemini-flash-latest" [ref=e2167] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.50" [ref=e2168]
+                - cell "$9.00" [ref=e2169]
+                - cell "1,048.576K" [ref=e2170]
+              - row "openrouter openai/gpt-3.5-turbo-instruct $1.50 $2.00 4.095K" [ref=e2171]:
+                - cell "openrouter" [ref=e2172]:
+                  - generic [ref=e2173]: openrouter
+                - cell "openai/gpt-3.5-turbo-instruct" [ref=e2174]:
+                  - link "openai/gpt-3.5-turbo-instruct" [ref=e2175] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.50" [ref=e2176]
+                - cell "$2.00" [ref=e2177]
+                - cell "4.095K" [ref=e2178]
+              - row "openrouter openai/gpt-5.3-chat $1.75 $14.00 128K" [ref=e2179]:
+                - cell "openrouter" [ref=e2180]:
+                  - generic [ref=e2181]: openrouter
+                - cell "openai/gpt-5.3-chat" [ref=e2182]:
+                  - link "openai/gpt-5.3-chat" [ref=e2183] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.75" [ref=e2184]
+                - cell "$14.00" [ref=e2185]
+                - cell "128K" [ref=e2186]
+              - row "openrouter openai/gpt-5.3-codex $1.75 $14.00 400K" [ref=e2187]:
+                - cell "openrouter" [ref=e2188]:
+                  - generic [ref=e2189]: openrouter
+                - cell "openai/gpt-5.3-codex" [ref=e2190]:
+                  - link "openai/gpt-5.3-codex" [ref=e2191] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.75" [ref=e2192]
+                - cell "$14.00" [ref=e2193]
+                - cell "400K" [ref=e2194]
+              - row "openrouter openai/gpt-5.2-codex $1.75 $14.00 400K" [ref=e2195]:
+                - cell "openrouter" [ref=e2196]:
+                  - generic [ref=e2197]: openrouter
+                - cell "openai/gpt-5.2-codex" [ref=e2198]:
+                  - link "openai/gpt-5.2-codex" [ref=e2199] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.75" [ref=e2200]
+                - cell "$14.00" [ref=e2201]
+                - cell "400K" [ref=e2202]
+              - row "openrouter openai/gpt-5.2-chat $1.75 $14.00 128K" [ref=e2203]:
+                - cell "openrouter" [ref=e2204]:
+                  - generic [ref=e2205]: openrouter
+                - cell "openai/gpt-5.2-chat" [ref=e2206]:
+                  - link "openai/gpt-5.2-chat" [ref=e2207] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.75" [ref=e2208]
+                - cell "$14.00" [ref=e2209]
+                - cell "128K" [ref=e2210]
+              - row "openrouter openai/gpt-5.2 $1.75 $14.00 400K" [ref=e2211]:
+                - cell "openrouter" [ref=e2212]:
+                  - generic [ref=e2213]: openrouter
+                - cell "openai/gpt-5.2" [ref=e2214]:
+                  - link "openai/gpt-5.2" [ref=e2215] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$1.75" [ref=e2216]
+                - cell "$14.00" [ref=e2217]
+                - cell "400K" [ref=e2218]
+              - row "openrouter ~google/gemini-pro-latest $2.00 $12.00 1,048.576K" [ref=e2219]:
+                - cell "openrouter" [ref=e2220]:
+                  - generic [ref=e2221]: openrouter
+                - cell "~google/gemini-pro-latest" [ref=e2222]:
+                  - link "~google/gemini-pro-latest" [ref=e2223] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2224]
+                - cell "$12.00" [ref=e2225]
+                - cell "1,048.576K" [ref=e2226]
+              - row "openrouter x-ai/grok-4.20-multi-agent $2.00 $6.00 2,000K" [ref=e2227]:
+                - cell "openrouter" [ref=e2228]:
+                  - generic [ref=e2229]: openrouter
+                - cell "x-ai/grok-4.20-multi-agent" [ref=e2230]:
+                  - link "x-ai/grok-4.20-multi-agent" [ref=e2231] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2232]
+                - cell "$6.00" [ref=e2233]
+                - cell "2,000K" [ref=e2234]
+              - row "openrouter google/gemini-3.1-pro-preview-customtools $2.00 $12.00 1,048.756K" [ref=e2235]:
+                - cell "openrouter" [ref=e2236]:
+                  - generic [ref=e2237]: openrouter
+                - cell "google/gemini-3.1-pro-preview-customtools" [ref=e2238]:
+                  - link "google/gemini-3.1-pro-preview-customtools" [ref=e2239] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2240]
+                - cell "$12.00" [ref=e2241]
+                - cell "1,048.756K" [ref=e2242]
+              - row "openrouter google/gemini-3.1-pro-preview $2.00 $12.00 1,048.576K" [ref=e2243]:
+                - cell "openrouter" [ref=e2244]:
+                  - generic [ref=e2245]: openrouter
+                - cell "google/gemini-3.1-pro-preview" [ref=e2246]:
+                  - link "google/gemini-3.1-pro-preview" [ref=e2247] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2248]
+                - cell "$12.00" [ref=e2249]
+                - cell "1,048.576K" [ref=e2250]
+              - row "openrouter google/gemini-3-pro-image-preview $2.00 $12.00 65.536K" [ref=e2251]:
+                - cell "openrouter" [ref=e2252]:
+                  - generic [ref=e2253]: openrouter
+                - cell "google/gemini-3-pro-image-preview" [ref=e2254]:
+                  - link "google/gemini-3-pro-image-preview" [ref=e2255] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2256]
+                - cell "$12.00" [ref=e2257]
+                - cell "65.536K" [ref=e2258]
+              - row "openrouter openai/o4-mini-deep-research $2.00 $8.00 200K" [ref=e2259]:
+                - cell "openrouter" [ref=e2260]:
+                  - generic [ref=e2261]: openrouter
+                - cell "openai/o4-mini-deep-research" [ref=e2262]:
+                  - link "openai/o4-mini-deep-research" [ref=e2263] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2264]
+                - cell "$8.00" [ref=e2265]
+                - cell "200K" [ref=e2266]
+              - row "openrouter ai21/jamba-large-1.7 $2.00 $8.00 256K" [ref=e2267]:
+                - cell "openrouter" [ref=e2268]:
+                  - generic [ref=e2269]: openrouter
+                - cell "ai21/jamba-large-1.7" [ref=e2270]:
+                  - link "ai21/jamba-large-1.7" [ref=e2271] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2272]
+                - cell "$8.00" [ref=e2273]
+                - cell "256K" [ref=e2274]
+              - row "openrouter openai/o3 $2.00 $8.00 200K" [ref=e2275]:
+                - cell "openrouter" [ref=e2276]:
+                  - generic [ref=e2277]: openrouter
+                - cell "openai/o3" [ref=e2278]:
+                  - link "openai/o3" [ref=e2279] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2280]
+                - cell "$8.00" [ref=e2281]
+                - cell "200K" [ref=e2282]
+              - row "openrouter openai/gpt-4.1 $2.00 $8.00 1,047.576K" [ref=e2283]:
+                - cell "openrouter" [ref=e2284]:
+                  - generic [ref=e2285]: openrouter
+                - cell "openai/gpt-4.1" [ref=e2286]:
+                  - link "openai/gpt-4.1" [ref=e2287] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2288]
+                - cell "$8.00" [ref=e2289]
+                - cell "1,047.576K" [ref=e2290]
+              - row "openrouter perplexity/sonar-reasoning-pro $2.00 $8.00 128K" [ref=e2291]:
+                - cell "openrouter" [ref=e2292]:
+                  - generic [ref=e2293]: openrouter
+                - cell "perplexity/sonar-reasoning-pro" [ref=e2294]:
+                  - link "perplexity/sonar-reasoning-pro" [ref=e2295] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2296]
+                - cell "$8.00" [ref=e2297]
+                - cell "128K" [ref=e2298]
+              - row "openrouter perplexity/sonar-deep-research $2.00 $8.00 128K" [ref=e2299]:
+                - cell "openrouter" [ref=e2300]:
+                  - generic [ref=e2301]: openrouter
+                - cell "perplexity/sonar-deep-research" [ref=e2302]:
+                  - link "perplexity/sonar-deep-research" [ref=e2303] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2304]
+                - cell "$8.00" [ref=e2305]
+                - cell "128K" [ref=e2306]
+              - row "openrouter mistralai/mistral-large-2411 $2.00 $6.00 131.072K" [ref=e2307]:
+                - cell "openrouter" [ref=e2308]:
+                  - generic [ref=e2309]: openrouter
+                - cell "mistralai/mistral-large-2411" [ref=e2310]:
+                  - link "mistralai/mistral-large-2411" [ref=e2311] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2312]
+                - cell "$6.00" [ref=e2313]
+                - cell "131.072K" [ref=e2314]
+              - row "openrouter mistralai/mistral-large-2407 $2.00 $6.00 131.072K" [ref=e2315]:
+                - cell "openrouter" [ref=e2316]:
+                  - generic [ref=e2317]: openrouter
+                - cell "mistralai/mistral-large-2407" [ref=e2318]:
+                  - link "mistralai/mistral-large-2407" [ref=e2319] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2320]
+                - cell "$6.00" [ref=e2321]
+                - cell "131.072K" [ref=e2322]
+              - row "openrouter mistralai/pixtral-large-2411 $2.00 $6.00 131.072K" [ref=e2323]:
+                - cell "openrouter" [ref=e2324]:
+                  - generic [ref=e2325]: openrouter
+                - cell "mistralai/pixtral-large-2411" [ref=e2326]:
+                  - link "mistralai/pixtral-large-2411" [ref=e2327] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2328]
+                - cell "$6.00" [ref=e2329]
+                - cell "131.072K" [ref=e2330]
+              - row "openrouter mistralai/mixtral-8x22b-instruct $2.00 $6.00 65.536K" [ref=e2331]:
+                - cell "openrouter" [ref=e2332]:
+                  - generic [ref=e2333]: openrouter
+                - cell "mistralai/mixtral-8x22b-instruct" [ref=e2334]:
+                  - link "mistralai/mixtral-8x22b-instruct" [ref=e2335] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2336]
+                - cell "$6.00" [ref=e2337]
+                - cell "65.536K" [ref=e2338]
+              - row "openrouter mistralai/mistral-large $2.00 $6.00 128K" [ref=e2339]:
+                - cell "openrouter" [ref=e2340]:
+                  - generic [ref=e2341]: openrouter
+                - cell "mistralai/mistral-large" [ref=e2342]:
+                  - link "mistralai/mistral-large" [ref=e2343] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.00" [ref=e2344]
+                - cell "$6.00" [ref=e2345]
+                - cell "128K" [ref=e2346]
+              - row "openrouter openai/gpt-5.4 $2.50 $15.00 1,050K" [ref=e2347]:
+                - cell "openrouter" [ref=e2348]:
+                  - generic [ref=e2349]: openrouter
+                - cell "openai/gpt-5.4" [ref=e2350]:
+                  - link "openai/gpt-5.4" [ref=e2351] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2352]
+                - cell "$15.00" [ref=e2353]
+                - cell "1,050K" [ref=e2354]
+              - row "openrouter openai/gpt-audio $2.50 $10.00 128K" [ref=e2355]:
+                - cell "openrouter" [ref=e2356]:
+                  - generic [ref=e2357]: openrouter
+                - cell "openai/gpt-audio" [ref=e2358]:
+                  - link "openai/gpt-audio" [ref=e2359] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2360]
+                - cell "$10.00" [ref=e2361]
+                - cell "128K" [ref=e2362]
+              - row "openrouter amazon/nova-premier-v1 $2.50 $12.50 1,000K" [ref=e2363]:
+                - cell "openrouter" [ref=e2364]:
+                  - generic [ref=e2365]: openrouter
+                - cell "amazon/nova-premier-v1" [ref=e2366]:
+                  - link "amazon/nova-premier-v1" [ref=e2367] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2368]
+                - cell "$12.50" [ref=e2369]
+                - cell "1,000K" [ref=e2370]
+              - row "openrouter openai/gpt-5-image-mini $2.50 $2.00 400K" [ref=e2371]:
+                - cell "openrouter" [ref=e2372]:
+                  - generic [ref=e2373]: openrouter
+                - cell "openai/gpt-5-image-mini" [ref=e2374]:
+                  - link "openai/gpt-5-image-mini" [ref=e2375] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2376]
+                - cell "$2.00" [ref=e2377]
+                - cell "400K" [ref=e2378]
+              - row "openrouter openai/gpt-4o-audio-preview $2.50 $10.00 128K" [ref=e2379]:
+                - cell "openrouter" [ref=e2380]:
+                  - generic [ref=e2381]: openrouter
+                - cell "openai/gpt-4o-audio-preview" [ref=e2382]:
+                  - link "openai/gpt-4o-audio-preview" [ref=e2383] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2384]
+                - cell "$10.00" [ref=e2385]
+                - cell "128K" [ref=e2386]
+              - row "openrouter cohere/command-a $2.50 $10.00 256K" [ref=e2387]:
+                - cell "openrouter" [ref=e2388]:
+                  - generic [ref=e2389]: openrouter
+                - cell "cohere/command-a" [ref=e2390]:
+                  - link "cohere/command-a" [ref=e2391] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2392]
+                - cell "$10.00" [ref=e2393]
+                - cell "256K" [ref=e2394]
+              - row "openrouter openai/gpt-4o-search-preview $2.50 $10.00 128K" [ref=e2395]:
+                - cell "openrouter" [ref=e2396]:
+                  - generic [ref=e2397]: openrouter
+                - cell "openai/gpt-4o-search-preview" [ref=e2398]:
+                  - link "openai/gpt-4o-search-preview" [ref=e2399] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2400]
+                - cell "$10.00" [ref=e2401]
+                - cell "128K" [ref=e2402]
+              - row "openrouter openai/gpt-4o-2024-11-20 $2.50 $10.00 128K" [ref=e2403]:
+                - cell "openrouter" [ref=e2404]:
+                  - generic [ref=e2405]: openrouter
+                - cell "openai/gpt-4o-2024-11-20" [ref=e2406]:
+                  - link "openai/gpt-4o-2024-11-20" [ref=e2407] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2408]
+                - cell "$10.00" [ref=e2409]
+                - cell "128K" [ref=e2410]
+              - row "openrouter inflection/inflection-3-pi $2.50 $10.00 8K" [ref=e2411]:
+                - cell "openrouter" [ref=e2412]:
+                  - generic [ref=e2413]: openrouter
+                - cell "inflection/inflection-3-pi" [ref=e2414]:
+                  - link "inflection/inflection-3-pi" [ref=e2415] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2416]
+                - cell "$10.00" [ref=e2417]
+                - cell "8K" [ref=e2418]
+              - row "openrouter inflection/inflection-3-productivity $2.50 $10.00 8K" [ref=e2419]:
+                - cell "openrouter" [ref=e2420]:
+                  - generic [ref=e2421]: openrouter
+                - cell "inflection/inflection-3-productivity" [ref=e2422]:
+                  - link "inflection/inflection-3-productivity" [ref=e2423] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2424]
+                - cell "$10.00" [ref=e2425]
+                - cell "8K" [ref=e2426]
+              - row "openrouter cohere/command-r-plus-08-2024 $2.50 $10.00 128K" [ref=e2427]:
+                - cell "openrouter" [ref=e2428]:
+                  - generic [ref=e2429]: openrouter
+                - cell "cohere/command-r-plus-08-2024" [ref=e2430]:
+                  - link "cohere/command-r-plus-08-2024" [ref=e2431] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2432]
+                - cell "$10.00" [ref=e2433]
+                - cell "128K" [ref=e2434]
+              - row "openrouter openai/gpt-4o-2024-08-06 $2.50 $10.00 128K" [ref=e2435]:
+                - cell "openrouter" [ref=e2436]:
+                  - generic [ref=e2437]: openrouter
+                - cell "openai/gpt-4o-2024-08-06" [ref=e2438]:
+                  - link "openai/gpt-4o-2024-08-06" [ref=e2439] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2440]
+                - cell "$10.00" [ref=e2441]
+                - cell "128K" [ref=e2442]
+              - row "openrouter openai/gpt-4o $2.50 $10.00 128K" [ref=e2443]:
+                - cell "openrouter" [ref=e2444]:
+                  - generic [ref=e2445]: openrouter
+                - cell "openai/gpt-4o" [ref=e2446]:
+                  - link "openai/gpt-4o" [ref=e2447] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$2.50" [ref=e2448]
+                - cell "$10.00" [ref=e2449]
+                - cell "128K" [ref=e2450]
+              - row "openrouter ~anthropic/claude-sonnet-latest $3.00 $15.00 1,000K" [ref=e2451]:
+                - cell "openrouter" [ref=e2452]:
+                  - generic [ref=e2453]: openrouter
+                - cell "~anthropic/claude-sonnet-latest" [ref=e2454]:
+                  - link "~anthropic/claude-sonnet-latest" [ref=e2455] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2456]
+                - cell "$15.00" [ref=e2457]
+                - cell "1,000K" [ref=e2458]
+              - row "openrouter anthropic/claude-sonnet-4.6 $3.00 $15.00 1,000K" [ref=e2459]:
+                - cell "openrouter" [ref=e2460]:
+                  - generic [ref=e2461]: openrouter
+                - cell "anthropic/claude-sonnet-4.6" [ref=e2462]:
+                  - link "anthropic/claude-sonnet-4.6" [ref=e2463] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2464]
+                - cell "$15.00" [ref=e2465]
+                - cell "1,000K" [ref=e2466]
+              - row "openrouter perplexity/sonar-pro-search $3.00 $15.00 200K" [ref=e2467]:
+                - cell "openrouter" [ref=e2468]:
+                  - generic [ref=e2469]: openrouter
+                - cell "perplexity/sonar-pro-search" [ref=e2470]:
+                  - link "perplexity/sonar-pro-search" [ref=e2471] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2472]
+                - cell "$15.00" [ref=e2473]
+                - cell "200K" [ref=e2474]
+              - row "openrouter anthropic/claude-sonnet-4.5 $3.00 $15.00 1,000K" [ref=e2475]:
+                - cell "openrouter" [ref=e2476]:
+                  - generic [ref=e2477]: openrouter
+                - cell "anthropic/claude-sonnet-4.5" [ref=e2478]:
+                  - link "anthropic/claude-sonnet-4.5" [ref=e2479] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2480]
+                - cell "$15.00" [ref=e2481]
+                - cell "1,000K" [ref=e2482]
+              - row "openrouter anthropic/claude-sonnet-4 $3.00 $15.00 1,000K" [ref=e2483]:
+                - cell "openrouter" [ref=e2484]:
+                  - generic [ref=e2485]: openrouter
+                - cell "anthropic/claude-sonnet-4" [ref=e2486]:
+                  - link "anthropic/claude-sonnet-4" [ref=e2487] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2488]
+                - cell "$15.00" [ref=e2489]
+                - cell "1,000K" [ref=e2490]
+              - row "openrouter perplexity/sonar-pro $3.00 $15.00 200K" [ref=e2491]:
+                - cell "openrouter" [ref=e2492]:
+                  - generic [ref=e2493]: openrouter
+                - cell "perplexity/sonar-pro" [ref=e2494]:
+                  - link "perplexity/sonar-pro" [ref=e2495] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2496]
+                - cell "$15.00" [ref=e2497]
+                - cell "200K" [ref=e2498]
+              - row "openrouter sao10k/l3.1-70b-hanami-x1 $3.00 $3.00 16K" [ref=e2499]:
+                - cell "openrouter" [ref=e2500]:
+                  - generic [ref=e2501]: openrouter
+                - cell "sao10k/l3.1-70b-hanami-x1" [ref=e2502]:
+                  - link "sao10k/l3.1-70b-hanami-x1" [ref=e2503] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2504]
+                - cell "$3.00" [ref=e2505]
+                - cell "16K" [ref=e2506]
+              - row "openrouter anthracite-org/magnum-v4-72b $3.00 $5.00 32.768K" [ref=e2507]:
+                - cell "openrouter" [ref=e2508]:
+                  - generic [ref=e2509]: openrouter
+                - cell "anthracite-org/magnum-v4-72b" [ref=e2510]:
+                  - link "anthracite-org/magnum-v4-72b" [ref=e2511] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2512]
+                - cell "$5.00" [ref=e2513]
+                - cell "32.768K" [ref=e2514]
+              - row "openrouter openai/gpt-3.5-turbo-16k $3.00 $4.00 16.385K" [ref=e2515]:
+                - cell "openrouter" [ref=e2516]:
+                  - generic [ref=e2517]: openrouter
+                - cell "openai/gpt-3.5-turbo-16k" [ref=e2518]:
+                  - link "openai/gpt-3.5-turbo-16k" [ref=e2519] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$3.00" [ref=e2520]
+                - cell "$4.00" [ref=e2521]
+                - cell "16.385K" [ref=e2522]
+              - row "openrouter aion-labs/aion-1.0 $4.00 $8.00 131.072K" [ref=e2523]:
+                - cell "openrouter" [ref=e2524]:
+                  - generic [ref=e2525]: openrouter
+                - cell "aion-labs/aion-1.0" [ref=e2526]:
+                  - link "aion-labs/aion-1.0" [ref=e2527] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$4.00" [ref=e2528]
+                - cell "$8.00" [ref=e2529]
+                - cell "131.072K" [ref=e2530]
+              - row "mistral Task schedulingSchedule prompts, agents, or workflows to run automatically at set times. $5.00 — —" [ref=e2531]:
+                - cell "mistral" [ref=e2532]:
+                  - generic [ref=e2533]: mistral
+                - cell "Task schedulingSchedule prompts, agents, or workflows to run automatically at set times." [ref=e2534]:
+                  - link "Task schedulingSchedule prompts, agents, or workflows to run automatically at set times." [ref=e2535] [cursor=pointer]:
+                    - /url: https://mistral.ai/pricing#api-pricing
+                - cell "$5.00" [ref=e2536]
+                - cell "—" [ref=e2537]
+                - cell "—" [ref=e2538]
+              - row "openrouter anthropic/claude-opus-4.8 $5.00 $25.00 1,000K" [ref=e2539]:
+                - cell "openrouter" [ref=e2540]:
+                  - generic [ref=e2541]: openrouter
+                - cell "anthropic/claude-opus-4.8" [ref=e2542]:
+                  - link "anthropic/claude-opus-4.8" [ref=e2543] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2544]
+                - cell "$25.00" [ref=e2545]
+                - cell "1,000K" [ref=e2546]
+              - row "openrouter openai/gpt-chat-latest $5.00 $30.00 400K" [ref=e2547]:
+                - cell "openrouter" [ref=e2548]:
+                  - generic [ref=e2549]: openrouter
+                - cell "openai/gpt-chat-latest" [ref=e2550]:
+                  - link "openai/gpt-chat-latest" [ref=e2551] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2552]
+                - cell "$30.00" [ref=e2553]
+                - cell "400K" [ref=e2554]
+              - row "openrouter ~openai/gpt-latest $5.00 $30.00 1,050K" [ref=e2555]:
+                - cell "openrouter" [ref=e2556]:
+                  - generic [ref=e2557]: openrouter
+                - cell "~openai/gpt-latest" [ref=e2558]:
+                  - link "~openai/gpt-latest" [ref=e2559] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2560]
+                - cell "$30.00" [ref=e2561]
+                - cell "1,050K" [ref=e2562]
+              - row "openrouter openai/gpt-5.5 $5.00 $30.00 1,050K" [ref=e2563]:
+                - cell "openrouter" [ref=e2564]:
+                  - generic [ref=e2565]: openrouter
+                - cell "openai/gpt-5.5" [ref=e2566]:
+                  - link "openai/gpt-5.5" [ref=e2567] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2568]
+                - cell "$30.00" [ref=e2569]
+                - cell "1,050K" [ref=e2570]
+              - row "openrouter ~anthropic/claude-opus-latest $5.00 $25.00 1,000K" [ref=e2571]:
+                - cell "openrouter" [ref=e2572]:
+                  - generic [ref=e2573]: openrouter
+                - cell "~anthropic/claude-opus-latest" [ref=e2574]:
+                  - link "~anthropic/claude-opus-latest" [ref=e2575] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2576]
+                - cell "$25.00" [ref=e2577]
+                - cell "1,000K" [ref=e2578]
+              - row "openrouter anthropic/claude-opus-4.7 $5.00 $25.00 1,000K" [ref=e2579]:
+                - cell "openrouter" [ref=e2580]:
+                  - generic [ref=e2581]: openrouter
+                - cell "anthropic/claude-opus-4.7" [ref=e2582]:
+                  - link "anthropic/claude-opus-4.7" [ref=e2583] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2584]
+                - cell "$25.00" [ref=e2585]
+                - cell "1,000K" [ref=e2586]
+              - row "openrouter anthropic/claude-opus-4.6 $5.00 $25.00 1,000K" [ref=e2587]:
+                - cell "openrouter" [ref=e2588]:
+                  - generic [ref=e2589]: openrouter
+                - cell "anthropic/claude-opus-4.6" [ref=e2590]:
+                  - link "anthropic/claude-opus-4.6" [ref=e2591] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2592]
+                - cell "$25.00" [ref=e2593]
+                - cell "1,000K" [ref=e2594]
+              - row "openrouter anthropic/claude-opus-4.5 $5.00 $25.00 200K" [ref=e2595]:
+                - cell "openrouter" [ref=e2596]:
+                  - generic [ref=e2597]: openrouter
+                - cell "anthropic/claude-opus-4.5" [ref=e2598]:
+                  - link "anthropic/claude-opus-4.5" [ref=e2599] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2600]
+                - cell "$25.00" [ref=e2601]
+                - cell "200K" [ref=e2602]
+              - row "openrouter openai/gpt-4o-2024-05-13 $5.00 $15.00 128K" [ref=e2603]:
+                - cell "openrouter" [ref=e2604]:
+                  - generic [ref=e2605]: openrouter
+                - cell "openai/gpt-4o-2024-05-13" [ref=e2606]:
+                  - link "openai/gpt-4o-2024-05-13" [ref=e2607] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$5.00" [ref=e2608]
+                - cell "$15.00" [ref=e2609]
+                - cell "128K" [ref=e2610]
+              - row "openrouter openai/gpt-5.4-image-2 $8.00 $15.00 272K" [ref=e2611]:
+                - cell "openrouter" [ref=e2612]:
+                  - generic [ref=e2613]: openrouter
+                - cell "openai/gpt-5.4-image-2" [ref=e2614]:
+                  - link "openai/gpt-5.4-image-2" [ref=e2615] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$8.00" [ref=e2616]
+                - cell "$15.00" [ref=e2617]
+                - cell "272K" [ref=e2618]
+              - row "openrouter anthropic/claude-opus-4.8-fast $10.00 $50.00 1,000K" [ref=e2619]:
+                - cell "openrouter" [ref=e2620]:
+                  - generic [ref=e2621]: openrouter
+                - cell "anthropic/claude-opus-4.8-fast" [ref=e2622]:
+                  - link "anthropic/claude-opus-4.8-fast" [ref=e2623] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$10.00" [ref=e2624]
+                - cell "$50.00" [ref=e2625]
+                - cell "1,000K" [ref=e2626]
+              - row "openrouter openai/gpt-5-image $10.00 $10.00 400K" [ref=e2627]:
+                - cell "openrouter" [ref=e2628]:
+                  - generic [ref=e2629]: openrouter
+                - cell "openai/gpt-5-image" [ref=e2630]:
+                  - link "openai/gpt-5-image" [ref=e2631] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$10.00" [ref=e2632]
+                - cell "$10.00" [ref=e2633]
+                - cell "400K" [ref=e2634]
+              - row "openrouter openai/o3-deep-research $10.00 $40.00 200K" [ref=e2635]:
+                - cell "openrouter" [ref=e2636]:
+                  - generic [ref=e2637]: openrouter
+                - cell "openai/o3-deep-research" [ref=e2638]:
+                  - link "openai/o3-deep-research" [ref=e2639] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$10.00" [ref=e2640]
+                - cell "$40.00" [ref=e2641]
+                - cell "200K" [ref=e2642]
+              - row "openrouter openai/gpt-4-turbo $10.00 $30.00 128K" [ref=e2643]:
+                - cell "openrouter" [ref=e2644]:
+                  - generic [ref=e2645]: openrouter
+                - cell "openai/gpt-4-turbo" [ref=e2646]:
+                  - link "openai/gpt-4-turbo" [ref=e2647] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$10.00" [ref=e2648]
+                - cell "$30.00" [ref=e2649]
+                - cell "128K" [ref=e2650]
+              - row "openrouter openai/gpt-4-turbo-preview $10.00 $30.00 128K" [ref=e2651]:
+                - cell "openrouter" [ref=e2652]:
+                  - generic [ref=e2653]: openrouter
+                - cell "openai/gpt-4-turbo-preview" [ref=e2654]:
+                  - link "openai/gpt-4-turbo-preview" [ref=e2655] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$10.00" [ref=e2656]
+                - cell "$30.00" [ref=e2657]
+                - cell "128K" [ref=e2658]
+              - row "openrouter openai/gpt-4-1106-preview $10.00 $30.00 128K" [ref=e2659]:
+                - cell "openrouter" [ref=e2660]:
+                  - generic [ref=e2661]: openrouter
+                - cell "openai/gpt-4-1106-preview" [ref=e2662]:
+                  - link "openai/gpt-4-1106-preview" [ref=e2663] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$10.00" [ref=e2664]
+                - cell "$30.00" [ref=e2665]
+                - cell "128K" [ref=e2666]
+              - row "openrouter openai/gpt-5-pro $15.00 $120.00 400K" [ref=e2667]:
+                - cell "openrouter" [ref=e2668]:
+                  - generic [ref=e2669]: openrouter
+                - cell "openai/gpt-5-pro" [ref=e2670]:
+                  - link "openai/gpt-5-pro" [ref=e2671] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$15.00" [ref=e2672]
+                - cell "$120.00" [ref=e2673]
+                - cell "400K" [ref=e2674]
+              - row "openrouter anthropic/claude-opus-4.1 $15.00 $75.00 200K" [ref=e2675]:
+                - cell "openrouter" [ref=e2676]:
+                  - generic [ref=e2677]: openrouter
+                - cell "anthropic/claude-opus-4.1" [ref=e2678]:
+                  - link "anthropic/claude-opus-4.1" [ref=e2679] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$15.00" [ref=e2680]
+                - cell "$75.00" [ref=e2681]
+                - cell "200K" [ref=e2682]
+              - row "openrouter anthropic/claude-opus-4 $15.00 $75.00 200K" [ref=e2683]:
+                - cell "openrouter" [ref=e2684]:
+                  - generic [ref=e2685]: openrouter
+                - cell "anthropic/claude-opus-4" [ref=e2686]:
+                  - link "anthropic/claude-opus-4" [ref=e2687] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$15.00" [ref=e2688]
+                - cell "$75.00" [ref=e2689]
+                - cell "200K" [ref=e2690]
+              - row "openrouter openai/o1 $15.00 $60.00 200K" [ref=e2691]:
+                - cell "openrouter" [ref=e2692]:
+                  - generic [ref=e2693]: openrouter
+                - cell "openai/o1" [ref=e2694]:
+                  - link "openai/o1" [ref=e2695] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$15.00" [ref=e2696]
+                - cell "$60.00" [ref=e2697]
+                - cell "200K" [ref=e2698]
+              - row "openrouter openai/o3-pro $20.00 $80.00 200K" [ref=e2699]:
+                - cell "openrouter" [ref=e2700]:
+                  - generic [ref=e2701]: openrouter
+                - cell "openai/o3-pro" [ref=e2702]:
+                  - link "openai/o3-pro" [ref=e2703] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$20.00" [ref=e2704]
+                - cell "$80.00" [ref=e2705]
+                - cell "200K" [ref=e2706]
+              - row "openrouter openai/gpt-5.2-pro $21.00 $168.00 400K" [ref=e2707]:
+                - cell "openrouter" [ref=e2708]:
+                  - generic [ref=e2709]: openrouter
+                - cell "openai/gpt-5.2-pro" [ref=e2710]:
+                  - link "openai/gpt-5.2-pro" [ref=e2711] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$21.00" [ref=e2712]
+                - cell "$168.00" [ref=e2713]
+                - cell "400K" [ref=e2714]
+              - row "openrouter anthropic/claude-opus-4.7-fast $30.00 $150.00 1,000K" [ref=e2715]:
+                - cell "openrouter" [ref=e2716]:
+                  - generic [ref=e2717]: openrouter
+                - cell "anthropic/claude-opus-4.7-fast" [ref=e2718]:
+                  - link "anthropic/claude-opus-4.7-fast" [ref=e2719] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$30.00" [ref=e2720]
+                - cell "$150.00" [ref=e2721]
+                - cell "1,000K" [ref=e2722]
+              - row "openrouter openai/gpt-5.5-pro $30.00 $180.00 1,050K" [ref=e2723]:
+                - cell "openrouter" [ref=e2724]:
+                  - generic [ref=e2725]: openrouter
+                - cell "openai/gpt-5.5-pro" [ref=e2726]:
+                  - link "openai/gpt-5.5-pro" [ref=e2727] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$30.00" [ref=e2728]
+                - cell "$180.00" [ref=e2729]
+                - cell "1,050K" [ref=e2730]
+              - row "openrouter anthropic/claude-opus-4.6-fast $30.00 $150.00 1,000K" [ref=e2731]:
+                - cell "openrouter" [ref=e2732]:
+                  - generic [ref=e2733]: openrouter
+                - cell "anthropic/claude-opus-4.6-fast" [ref=e2734]:
+                  - link "anthropic/claude-opus-4.6-fast" [ref=e2735] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$30.00" [ref=e2736]
+                - cell "$150.00" [ref=e2737]
+                - cell "1,000K" [ref=e2738]
+              - row "openrouter openai/gpt-5.4-pro $30.00 $180.00 1,050K" [ref=e2739]:
+                - cell "openrouter" [ref=e2740]:
+                  - generic [ref=e2741]: openrouter
+                - cell "openai/gpt-5.4-pro" [ref=e2742]:
+                  - link "openai/gpt-5.4-pro" [ref=e2743] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$30.00" [ref=e2744]
+                - cell "$180.00" [ref=e2745]
+                - cell "1,050K" [ref=e2746]
+              - row "openrouter openai/gpt-4-0314 $30.00 $60.00 8.191K" [ref=e2747]:
+                - cell "openrouter" [ref=e2748]:
+                  - generic [ref=e2749]: openrouter
+                - cell "openai/gpt-4-0314" [ref=e2750]:
+                  - link "openai/gpt-4-0314" [ref=e2751] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$30.00" [ref=e2752]
+                - cell "$60.00" [ref=e2753]
+                - cell "8.191K" [ref=e2754]
+              - row "openrouter openai/gpt-4 $30.00 $60.00 8.191K" [ref=e2755]:
+                - cell "openrouter" [ref=e2756]:
+                  - generic [ref=e2757]: openrouter
+                - cell "openai/gpt-4" [ref=e2758]:
+                  - link "openai/gpt-4" [ref=e2759] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$30.00" [ref=e2760]
+                - cell "$60.00" [ref=e2761]
+                - cell "8.191K" [ref=e2762]
+              - row "openrouter openai/o1-pro $150.00 $600.00 200K" [ref=e2763]:
+                - cell "openrouter" [ref=e2764]:
+                  - generic [ref=e2765]: openrouter
+                - cell "openai/o1-pro" [ref=e2766]:
+                  - link "openai/o1-pro" [ref=e2767] [cursor=pointer]:
+                    - /url: https://openrouter.ai/api/v1/models
+                - cell "$150.00" [ref=e2768]
+                - cell "$600.00" [ref=e2769]
+                - cell "200K" [ref=e2770]
+              - row "groq AI ModelLlama 3.3 70B Versatile 128k $394.00 $0.590 —" [ref=e2771]:
+                - cell "groq" [ref=e2772]:
+                  - generic [ref=e2773]: groq
+                - cell "AI ModelLlama 3.3 70B Versatile 128k" [ref=e2774]:
+                  - link "AI ModelLlama 3.3 70B Versatile 128k" [ref=e2775] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$394.00" [ref=e2776]
+                - cell "$0.590" [ref=e2777]
+                - cell "—" [ref=e2778]
+              - row "groq AI ModelGPT OSS 120B 128k $500.00 $0.150 —" [ref=e2779]:
+                - cell "groq" [ref=e2780]:
+                  - generic [ref=e2781]: groq
+                - cell "AI ModelGPT OSS 120B 128k" [ref=e2782]:
+                  - link "AI ModelGPT OSS 120B 128k" [ref=e2783] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$500.00" [ref=e2784]
+                - cell "$0.150" [ref=e2785]
+                - cell "—" [ref=e2786]
+              - row "groq AI ModelLlama 4 Scout (17Bx16E) 128k $594.00 $0.110 —" [ref=e2787]:
+                - cell "groq" [ref=e2788]:
+                  - generic [ref=e2789]: groq
+                - cell "AI ModelLlama 4 Scout (17Bx16E) 128k" [ref=e2790]:
+                  - link "AI ModelLlama 4 Scout (17Bx16E) 128k" [ref=e2791] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$594.00" [ref=e2792]
+                - cell "$0.110" [ref=e2793]
+                - cell "—" [ref=e2794]
+              - row "groq AI ModelQwen3 32B 131k $662.00 $0.290 —" [ref=e2795]:
+                - cell "groq" [ref=e2796]:
+                  - generic [ref=e2797]: groq
+                - cell "AI ModelQwen3 32B 131k" [ref=e2798]:
+                  - link "AI ModelQwen3 32B 131k" [ref=e2799] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$662.00" [ref=e2800]
+                - cell "$0.290" [ref=e2801]
+                - cell "—" [ref=e2802]
+              - row "groq AI ModelLlama 3.1 8B Instant 128k $840.00 $0.050 —" [ref=e2803]:
+                - cell "groq" [ref=e2804]:
+                  - generic [ref=e2805]: groq
+                - cell "AI ModelLlama 3.1 8B Instant 128k" [ref=e2806]:
+                  - link "AI ModelLlama 3.1 8B Instant 128k" [ref=e2807] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$840.00" [ref=e2808]
+                - cell "$0.050" [ref=e2809]
+                - cell "—" [ref=e2810]
+              - row "groq AI ModelGPT OSS 20B 128k $1000.00 $0.075 —" [ref=e2811]:
+                - cell "groq" [ref=e2812]:
+                  - generic [ref=e2813]: groq
+                - cell "AI ModelGPT OSS 20B 128k" [ref=e2814]:
+                  - link "AI ModelGPT OSS 20B 128k" [ref=e2815] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$1000.00" [ref=e2816]
+                - cell "$0.075" [ref=e2817]
+                - cell "—" [ref=e2818]
+              - row "groq AI ModelGPT OSS Safeguard 20B $1000.00 $0.075 —" [ref=e2819]:
+                - cell "groq" [ref=e2820]:
+                  - generic [ref=e2821]: groq
+                - cell "AI ModelGPT OSS Safeguard 20B" [ref=e2822]:
+                  - link "AI ModelGPT OSS Safeguard 20B" [ref=e2823] [cursor=pointer]:
+                    - /url: https://groq.com/pricing/
+                - cell "$1000.00" [ref=e2824]
+                - cell "$0.075" [ref=e2825]
+                - cell "—" [ref=e2826]
+        - generic [ref=e2827]:
+          - paragraph [ref=e2828]: 데이터 갱신
+          - paragraph [ref=e2829]: 가격 데이터는 GitHub Actions가 매일 공식 페이지에서 수집해 자동 갱신합니다. 일부 제공업체는 페이지 구조 변동·인증 요구로 일시적으로 비어 있을 수 있습니다.
+    - contentinfo
