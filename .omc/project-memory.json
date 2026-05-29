@@ -52,6 +52,24 @@
       "type": "file"
     },
     {
+      "path": "docs/.vitepress/theme/PriceTable.vue",
+      "accessCount": 6,
+      "lastAccessed": 1780061567854,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/config.ts",
+      "accessCount": 4,
+      "lastAccessed": 1780061499401,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/theme/index.ts",
+      "accessCount": 4,
+      "lastAccessed": 1780061551069,
+      "type": "file"
+    },
+    {
       "path": "scripts/providers/openai.py",
       "accessCount": 3,
       "lastAccessed": 1780059217798,
@@ -106,18 +124,6 @@
       "type": "file"
     },
     {
-      "path": "docs/.vitepress/config.ts",
-      "accessCount": 3,
-      "lastAccessed": 1780061219458,
-      "type": "file"
-    },
-    {
-      "path": "docs/.vitepress/theme/PriceTable.vue",
-      "accessCount": 3,
-      "lastAccessed": 1780061219917,
-      "type": "file"
-    },
-    {
       "path": "ARCHITECTURE.md",
       "accessCount": 2,
       "lastAccessed": 1780057865588,
@@ -136,9 +142,9 @@
       "type": "file"
     },
     {
-      "path": "docs/.vitepress/theme/index.ts",
+      "path": "docs/pricing/index.md",
       "accessCount": 2,
-      "lastAccessed": 1780061202615,
+      "lastAccessed": 1780061503003,
       "type": "file"
     },
     {
@@ -268,12 +274,6 @@
       "type": "file"
     },
     {
-      "path": "docs/pricing/index.md",
-      "accessCount": 1,
-      "lastAccessed": 1780057987978,
-      "type": "file"
-    },
-    {
       "path": "docs/plans/index.md",
       "accessCount": 1,
       "lastAccessed": 1780057993730,
@@ -283,6 +283,12 @@
       "path": "docs/guard/index.md",
       "accessCount": 1,
       "lastAccessed": 1780058002257,
+      "type": "file"
+    },
+    {
+      "path": "docs/.vitepress/theme/custom.css",
+      "accessCount": 1,
+      "lastAccessed": 1780061547295,
       "type": "file"
     }
   ],
