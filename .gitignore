@@ -1,3 +1,9 @@
 node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+.venv/
+.omc/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/history/
