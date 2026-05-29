@@ -3,17 +3,37 @@ import { computed, onMounted, onUnmounted, ref } from 'vue'
 // 빌드 타임에 번들 — 런타임 API 호출 없음
 import pricesData from '../../../data/prices.json'
 
-// full-bleed 보정: scrollbar-gutter:stable이 예약한 스크롤바 폭만큼
-// 100vw가 실제 가용 폭보다 넓어 가로 스크롤이 생긴다. 실측해 빼준다.
-const scrollbarWidth = ref(0)
-function measureScrollbar() {
-  scrollbarWidth.value = window.innerWidth - document.documentElement.clientWidth
+// full-bleed: 순수 CSS(50% − 50vw)는 부모의 뷰포트 절대 x좌표를 모른다.
+// VitePress는 패딩 + flexbox 중앙정렬로 콘텐츠 박스를 x=176px 같은 위치에
+// 밀어놓으므로 계산이 어긋난다. 부모의 실제 좌표를 실측해 margin-left를
+// 정확히 -(콘텐츠 박스 left)로 잡고, 폭은 스크롤바 제외 가용 폭으로 채운다.
+const ptEl = ref<HTMLElement | null>(null)
+const bleedStyle = ref<Record<string, string>>({})
+
+function measureBleed() {
+  const el = ptEl.value
+  if (!el) return
+  // 모바일은 본문 흐름 폭 유지 (인라인 스타일을 비워 CSS에 위임)
+  if (window.innerWidth < 640) {
+    bleedStyle.value = {}
+    return
+  }
+  // 현재 적용된 margin-left를 빼면, 마진이 없을 때의 부모 콘텐츠 박스 left.
+  const currentMl = parseFloat(getComputedStyle(el).marginLeft) || 0
+  const contentLeft = el.getBoundingClientRect().left - currentMl
+  // clientWidth = 스크롤바(gutter) 제외 가용 폭
+  const usableWidth = document.documentElement.clientWidth
+  bleedStyle.value = {
+    width: usableWidth + 'px',
+    marginLeft: -contentLeft + 'px',
+  }
 }
+
 onMounted(() => {
-  measureScrollbar()
-  window.addEventListener('resize', measureScrollbar)
+  measureBleed()
+  window.addEventListener('resize', measureBleed)
 })
-onUnmounted(() => window.removeEventListener('resize', measureScrollbar))
+onUnmounted(() => window.removeEventListener('resize', measureBleed))
 
 interface PriceEntry {
   provider: string
@@ -245,7 +265,7 @@ function resetFilters() {
 </script>
 
 <template>
-  <div class="pt" :style="{ '--pt-sbw': scrollbarWidth + 'px' }">
+  <div class="pt" ref="ptEl" :style="bleedStyle">
     <!-- 컨트롤 바 -->
     <div class="pt-controls">
       <div class="pt-search-wrap">
@@ -469,16 +489,13 @@ function resetFilters() {
 </template>
 
 <style scoped>
-/* full-bleed: VitePress 본문 컨테이너(중앙 정렬 고정폭) 밖으로 빠져나와
-   뷰포트 가용 폭(=100vw − 스크롤바)을 전부 차지한다. 산문은 그대로 두고
-   이 컴포넌트만 breakout 하므로 VitePress max-width와 싸울 필요가 없다.
-   --pt-sbw 는 onMounted에서 실측한 스크롤바 폭(SSR/초기엔 0). */
+/* full-bleed: 폭(width)과 좌측 마진(margin-left)은 JS(measureBleed)가
+   부모 콘텐츠 박스의 실제 뷰포트 좌표를 실측해 인라인으로 주입한다.
+   여기서는 상하 여백·내부 패딩·box-sizing만 책임진다.
+   모바일에서는 인라인 스타일이 비워져 본문 흐름 폭을 그대로 따른다. */
 .pt {
   --pt-radius: 12px;
-  --pt-sbw: 0px;
-  --pt-bleed: calc(100vw - var(--pt-sbw));
-  width: var(--pt-bleed);
-  margin: 1rem 0 2rem calc(50% - var(--pt-bleed) / 2);
+  margin: 1rem 0 2rem;
   padding: 0 clamp(16px, 3vw, 48px);
   box-sizing: border-box;
 }
@@ -927,11 +944,9 @@ function resetFilters() {
 
 /* 모바일 (<640px): 카드 전환 + 필터 접기 */
 @media (max-width: 639px) {
-  /* full-bleed 해제 — 카드 리스트는 본문 흐름 폭 그대로 (가로 넘침 방지) */
+  /* full-bleed 해제 — 폭/마진은 JS가 인라인 스타일을 비워 본문 흐름을 따른다.
+     좌우 패딩만 제거해 카드가 가용 폭을 꽉 쓰도록 한다. */
   .pt {
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
     padding: 0;
   }
   .pt-table-wrap {
