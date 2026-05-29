@@ -12,16 +12,21 @@ html {
   }
 }
 
-/* ── 가격 비교 페이지: 표가 본문 전체 폭을 사용 ───────────
-   VitePress 기본 doc 레이아웃은 .VPDoc.has-aside .content-container 를
-   max-width: 688px 로 제한한다. 이게 테이블이 짤리는 진짜 원인.
-   PriceTable(.pt)이 포함된 .content-container의 제한을 풀고,
-   부모 .container도 함께 풀어서 전체 폭을 사용하게 한다. */
+/* ── 가격 비교 페이지: 모든 콘텐츠 폭 제한 해제 ──────────
+   VitePress가 3중으로 max-width를 제한한다:
+   1. .VPDoc:not(.has-sidebar) .container       → ~1104px
+   2. .VPDoc:not(.has-sidebar) .content          → ~784px
+   3. .VPDoc.has-aside .content-container        → 688px
+   PriceTable(.pt)이 있는 페이지에서 전부 해제해야
+   테이블이 실제 화면 폭을 다 사용할 수 있다. */
 @media (min-width: 1024px) {
-  .VPDoc.has-aside .content-container:has(.pt) {
+  .VPDoc:has(.pt) .container,
+  .VPDoc:has(.pt) .content,
+  .VPDoc.has-aside:has(.pt) .content-container {
     max-width: none !important;
   }
-  .VPDoc.has-aside .container:has(.pt) {
-    max-width: none !important;
+  .VPDoc:has(.pt) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
